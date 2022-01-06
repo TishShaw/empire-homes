@@ -1,0 +1,35 @@
+.HeaderNav__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: goldenrod;
+    height: 70%;
+    align-items: center;
+}
+
+.Header__title {
+    padding: 25px;
+}
+
+.Header__list-item {
+    list-style: none;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.Header__list {
+    display: flex;
+    align-items: center;
+}
+
+.Header__login {
+    padding-right: 25px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
