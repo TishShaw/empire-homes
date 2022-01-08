@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './HeaderNav.styles.css';
 import {Link} from 'react-router-dom';
+import Modal from '../Login/Modal';
+import LoginForm from '../Login/LoginForm';
 
 function HeaderNav(props) {
+	const [isOpen, setIsOpen] = useState(false);
+
     return (
 			<nav className='HeaderNav__container'>
 				<Link className='link' to='/'>
@@ -22,9 +26,15 @@ function HeaderNav(props) {
 						<li className='Header__list-item'>Feed</li>
 					</Link>
 				</ul>
-				<Link className='link' to='/Login'>
-					<h3 className='Header__login'>Login</h3>
-				</Link>
+					<button 
+					className='Header__login'
+					onClick={() => setIsOpen(true)}>
+						Log In
+					</button>
+				<Modal open={isOpen} onClose={() => setIsOpen(false)}>
+					Log In
+					<LoginForm />
+				</Modal>
 			</nav>
 		);
 }
