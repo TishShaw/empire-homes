@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../components/Header/Header';
-import MainContent from '../components/MainContent/MainContent';
+import Feed from '../components/Feed/Feed';
 
 
 function Homepage(props) {
     return (
         <div>
             <Header />
-            <MainContent />
+            <Feed />
         </div>
     );
 }

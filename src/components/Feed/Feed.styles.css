@@ -1,13 +1,12 @@
-.wrapper-grid {
 
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-}
 
-.card-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    overflow: hidden;
+.card-comp-container {
+    margin: 60px 0;
+    padding: 3em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid goldenrod;
+    border-width: 15px;
 }

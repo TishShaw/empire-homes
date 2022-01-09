@@ -4,7 +4,7 @@
     justify-content: space-between;
     width: 100%;
     background-color: goldenrod;
-    height: 70%;
+    height: 60px;
     align-items: center;
 }
 
@@ -24,12 +24,29 @@
     align-items: center;
 }
 
-.Header__login {
-    padding-right: 25px;
-}
 
 .link {
     text-decoration: none;
     color: white;
     cursor: pointer;
+}
+
+.logout-btn {
+    margin-right: 40px;
+    border: none;
+    padding-top: 20px;
+    background-color: goldenrod;;
+}
+
+.lastItem {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
+
+.p-text {
+    font-weight: 700;
+    margin-right: 20px;
 }
