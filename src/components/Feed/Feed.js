@@ -27,6 +27,7 @@ function Feed() {
 								sqft={listing.lot_sqft}
 								onChange={handleFilter}
 								
+								
 							/>
 						))}
 					</div>

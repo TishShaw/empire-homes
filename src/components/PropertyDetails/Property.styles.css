@@ -1,0 +1,11 @@
+.img-detail {
+    height: 20rem;
+    width: 40em;
+    display: flex;
+    margin: auto;
+}
+
+.details-stats {
+    margin: 20px;
+    grid-template-rows: repeat(3,1fr);
+}

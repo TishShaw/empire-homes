@@ -4,12 +4,20 @@
     justify-content: space-between;
     width: 100%;
     background-color: goldenrod;
-    height: 60px;
+    height: 70px;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.HeaderNav__container button {
+    margin-right: 1.5rem;
 }
 
 .Header__title {
     padding: 25px;
+    font-size: 2em;
 }
 
 .Header__list-item {
@@ -49,4 +57,9 @@
 .p-text {
     font-weight: 700;
     margin-right: 20px;
+    font-size: larger;
+}
+.link{
+    
+    text-decoration: none;
 }

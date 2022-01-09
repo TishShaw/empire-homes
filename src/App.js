@@ -4,6 +4,7 @@ import { PropertyContext } from './components/Context/PropertyContext';
 import Homepage from './pages/Homepage';
 import HeaderNav from './components/HeaderNav/HeaderNav';
 import Feed from './components/Feed/Feed';
+import MainPage from './pages/MainPage';
 import Footer from './components/Footer/Footer';
 import HOUSE_DATA from './HouseData';
 
@@ -44,6 +45,7 @@ function App() {
 				<Routes>
 					<Route path='/' element={<Homepage />} />
 					<Route path='/Feed' element={<Feed />} />
+					<Route path='/name' element={<MainPage />} />
 				</Routes>
 				<Footer />
 			</PropertyContext.Provider>

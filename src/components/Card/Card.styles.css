@@ -1,5 +1,5 @@
 .card-container {
-    width: 15em;
+    width: 20em;
     height: 15em;
     overflow: hidden;
     box-shadow: 0px 0px 10px -5px;
@@ -37,4 +37,25 @@
 img {
     height: 150px;
     width: 100%;
+    size: cover;
+}
+
+.heart-icon {
+    height: 5px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .card-container {
+        height: 15em;
+        width: 15em;
+
+    }
+    .card-comp-container {
+        height: 500px;
+        display: flex;
+        justify-content:space-between;
+        align-content: center;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
 }

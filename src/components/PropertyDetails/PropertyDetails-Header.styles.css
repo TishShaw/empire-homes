@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+}
+
+.details-container {
+    height: 5rem;
+    margin-top: 20%;
+    background-color: orchid;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr)
+    
+}
+
+.prop-wrapper {
+    margin: 20px;
+    margin-top: -5em;
+    
+}
+
+.buttonEl {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.price-prop {
+    font-size: 1.5em;
+    grid-column: 3;
+    
+}

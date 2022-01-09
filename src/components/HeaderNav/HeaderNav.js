@@ -3,8 +3,15 @@ import { PropertyContext } from '../Context/PropertyContext';
 import './HeaderNav.styles.css';
 import {Link} from 'react-router-dom';
 import Modal from '../Login/Modal';
-import LoginForm from '../Login/LoginForm';
+import LoginForm from '../Login/LoginForm'; 
+import Button from '@material-ui/core/Button';
+import { createTheme, responsiveFontSizes } from '@material-ui/core/styles';
 
+const theme = createTheme({
+	typography: {
+		htmlFontSize: 10,
+	},
+});
 
 function HeaderNav() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -21,16 +28,24 @@ function HeaderNav() {
 				<Link className='link' to='/'>
 					<h1 className='Header__title'>Empire Homes</h1>
 				</Link>
-				
+
 				<div className='lastItem'>
 					{user.username ? (
-						<button className='logout-btn' onClick={handleLoggingOut}>
-							Log out
+						<button
+							className='logout-btn'
+							variant='outlined'
+							color='primary'
+							onClick={handleLoggingOut}>
+							Log Out
 						</button>
 					) : (
-						<button className='f6 fw6 ttu ' onClick={() => setIsOpen(true)}>
+						<Button
+							className='f6 fw6 ttu '
+							variant='outlined'
+							color='secondary'
+							onClick={() => setIsOpen(true)}>
 							Log In
-						</button>
+						</Button>
 					)}
 					<Modal
 						open={isOpen}
@@ -38,7 +53,8 @@ function HeaderNav() {
 						onClose={() => setIsOpen(false)}>
 						<LoginForm setIsOpen={setIsOpen} />
 					</Modal>
-					{user.username ? <p className='p-text'>`Welcome Home` </p> : null}
+					{user.username ? <p className='p-text'></p> : null}
+					
 				</div>
 			</nav>
 		);
