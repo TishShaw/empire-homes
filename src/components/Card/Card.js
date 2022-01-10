@@ -7,9 +7,7 @@ import { FormControlLabel, Button } from '@mui/material';
 import Checkbox from '@material-ui/core/Checkbox';
 
 
-function Card({line ,image, price, beds, bath , sqft, listings, filteredData}) {
-
-
+function Card({image, price, beds, bath , sqft, line, listings}) {
     return (
 			<div className='card-container'>
 				<div className='image-contianer'>
@@ -24,7 +22,7 @@ function Card({line ,image, price, beds, bath , sqft, listings, filteredData}) {
 						</p>
 					</div>
 					<div className='btn'>
-						<Link to='/:listing_id' key={listings.listing_id} className='link'>
+						<Link to='details/:listing_id' key={listings.listing_id} className='link'>
 							<Button variant='outlined' color='secondary' size='small'>
 								View
 							</Button>

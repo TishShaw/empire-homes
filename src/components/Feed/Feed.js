@@ -7,27 +7,29 @@ import PropertyDetailHeader from '../PropertyDetails/PropertyDetail-Header';
 
 
 const Feed = () => {
-	const { listings } = useContext(PropertyContext);
-
+		const {listings, setListings, filteredData} = useContext(PropertyContext)
+	
+	
+	
+	
 	if(!listings) {
 		return <h2>Loading ...</h2>
 	} else {
 		return (
 			<div className='wrapper-grid'>
 				<div className='card-comp-container'>
-					{listings.map((listing) => (
+					{filteredData.map((listing) => (
 						<Link
-							to={`details/${listing.listing_id}`}
+							to={`details/:${listing.listing_id}`}
 							key={listing.listing_id}
 							component={<PropertyDetailHeader />}>
 							<Card
-								image={listing}
+								image={listing.primary_photo ? listing.primary_photo.href : 'no image'}
 								price={listing.list_price}
 								beds={listing.description.beds}
 								bath={listing.description.baths}
 								sqft={listing.description.sqft}
 								line={listing.location.address.line}
-								PropertyDetailHeader={PropertyDetailHeader}
 								listings={listings}
 							/>
 						</Link>

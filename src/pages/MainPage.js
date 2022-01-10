@@ -4,11 +4,10 @@ import PropertyDetailHeader from '../components/PropertyDetails/PropertyDetail-H
 import PropertyDetails from '../components/PropertyDetails/PropertyDetails';
 
 function MainPage(props) {
-    const { listings, setListings } = useContext(PropertyContext)
     return (
 			<div>
-				<PropertyDetailHeader listings={listings} setListings={setListings} />
-				<PropertyDetails listings={listings} setListings={setListings} />
+				<PropertyDetailHeader />
+				<PropertyDetails  />
 			</div>
 		);
 }

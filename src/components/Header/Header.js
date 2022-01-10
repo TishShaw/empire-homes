@@ -1,10 +1,12 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import {PropertyContext} from '../Context/PropertyContext';
 import './Header.styles.css';
 
 
 function Header() {
-	const {listings, handleFilter} = useContext(PropertyContext);
+	const {listings, handleFilter} = useContext(PropertyContext)
+
+
 
     return (
 			<div className='Header__container'>

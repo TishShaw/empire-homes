@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    background-color: goldenrod;
+    background-color: #6d6875;
     height: 70px;
     align-items: center;
     position: fixed;
@@ -43,7 +43,7 @@
     margin-right: 40px;
     border: none;
     padding-top: 20px;
-    background-color: goldenrod;;
+    background-color: #6d6875;
 }
 
 .lastItem {
