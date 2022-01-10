@@ -7,6 +7,5 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid goldenrod;
     border-width: 15px;
 }

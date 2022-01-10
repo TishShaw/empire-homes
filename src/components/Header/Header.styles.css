@@ -39,4 +39,8 @@
     .input-container {
         width: 20rem;
     }
+
+    .input {
+        width: 40rem;
+    }
 }

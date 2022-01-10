@@ -1,33 +1,48 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: ;
+    box-sizing: border-box;
 }
 
 .details-container {
-    height: 5rem;
-    margin-top: 20%;
-    background-color: orchid;
+    font-family: monospace;
+    height: 100px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr)
+    grid-template-rows: repeat(2, 1fr);
     
 }
 
 .prop-wrapper {
     margin: 20px;
-    margin-top: -5em;
-    
+    margin-top: 80px;
 }
 
 .buttonEl {
-    display: flex;
-    justify-content: flex-end;
+    grid-column: 4;
+}
+
+.btn-header {
+    grid-column: 4;
+    margin: 60px;
 }
 
 .price-prop {
     font-size: 1.5em;
-    grid-column: 3;
+    grid-column: 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     
+}
+
+.prop-breadcrumb {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.prop-title {
+    font-size: 1.3em;
+    font-weight: bold;
 }

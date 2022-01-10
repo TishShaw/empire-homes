@@ -1,16 +1,14 @@
-import { useContext } from "react";
-import { PropertyContext } from "../Context/PropertyContext";
 import './Property.styles.css';
 
 
-const PropertyDetails = () => {
+const PropertyDetails = ({listings}) => {
 	return (
 		<div>
 				<div className='details-stats'>
 					<div className='image-section'>
 						<img
 							className='img-detail'
-							src='https://ap.rdcpix.com/117cacdb654881a814719cd272077d19l-m257173656s-w1024_h768.jpg'
+							src={listings.price}
 							alt=''
 						/>
 					</div>
