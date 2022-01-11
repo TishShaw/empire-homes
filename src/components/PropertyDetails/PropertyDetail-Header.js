@@ -1,7 +1,9 @@
 import Button from '@mui/material/Button';
 import './PropertyDetails-Header.styles.css';
 function PropertyDetailHeader({listing}) {
-
+if(!listing){
+	return null
+}
 
 
     return (

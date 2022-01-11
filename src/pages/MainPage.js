@@ -6,12 +6,12 @@ import PropertyDetails from '../components/PropertyDetails/PropertyDetails';
 function MainPage() {
 	const { listing_id } = useParams();
 
-	const [listing, setListing] = useState([]);
+	const [listing, setListing] = useState(null);
 
 	useEffect(() => {
 		console.log(listing_id);
 		fetch(
-			`https://us-real-estate.p.rapidapi.com/for-sale?property_id=${listing_id}`,
+			`https://us-real-estate.p.rapidapi.com/property-detail?property_id=${listing_id}`,
 			{
 				method: 'GET',
 				params: { property_id: listing_id },
@@ -23,7 +23,8 @@ function MainPage() {
 		)
 			.then((res) => res.json())
 			.then((res) => {
-				setListing(res.data.results);
+				console.log(res)
+				setListing(res.data);
 			})
 			.catch((err) => {
 				console.error(err);
