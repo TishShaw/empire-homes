@@ -33,7 +33,7 @@ function App() {
 			)
 				.then((res) => res.json())
 				.then((res) => {
-					setListing(res.data);
+					setListing(res.data.results);
 				})
 				.catch((err) => {
 					console.error(err);
