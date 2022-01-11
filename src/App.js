@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { PropertyContext } from './components/Context/PropertyContext';
 import Homepage from './pages/Homepage';
 import HeaderNav from './components/HeaderNav/HeaderNav';
 import Feed from './components/Feed/Feed';
-import MainPage from './pages/MainPage';
 import Footer from './components/Footer/Footer';
-import PropertyDetailHeader from './components/PropertyDetails/PropertyDetail-Header';
+import MainPage from './pages/MainPage';
 
 
 
 
 
 function App() {
-	const [listings, setListings] = useState([]);
+	const [listing, setListing] = useState([]);
 	const [filteredData, setFilteredData] = useState([]);
 
 	const [user, setUser] = useState({
@@ -22,16 +21,19 @@ function App() {
 	});	
 
 		useEffect(() => {
-			fetch('http://127.0.0.1:5500/src/listings2.json', {
-				method: 'GET',
-				headers: {
-					'x-rapidapi-host': 'us-real-estate.p.rapidapi.com',
-					'x-rapidapi-key': process.env.REACT_APP_US_REAL_ESTATE_KEY,
-				},
-			})
+			fetch(
+				'https://us-real-estate.p.rapidapi.com/for-sale?offset=0&limit=42&state_code=MI&city=Detroit&sort=newest',
+				{
+					method: 'GET',
+					headers: {
+						'x-rapidapi-host': 'us-real-estate.p.rapidapi.com',
+						'x-rapidapi-key': process.env.REACT_APP_X_RAPID_API_KEY,
+					},
+				}
+			)
 				.then((res) => res.json())
 				.then((res) => {
-					setListings(res);
+					setListing(res.data);
 				})
 				.catch((err) => {
 					console.error(err);
@@ -40,8 +42,7 @@ function App() {
 
 const handleFilter = (event) => {
 	const target = event.target.value;
-	const filterArr = listings.filter((value) => {
-		console.log(value);
+	const filterArr = listing.filter((value) => {
 		return value.location.address.line.toLowerCase().includes(target.toLowerCase());
 	})
 	setFilteredData(filterArr)
@@ -55,15 +56,15 @@ const handleFilter = (event) => {
 					user,
 					setUser,
 					handleFilter,
-					listings,
-					setListings,
+					listing,
+					setListing,
 					filteredData,
 				}}>
 				<HeaderNav />
 				<Routes>
 					<Route path='/' element={<Homepage />} />
 					<Route path='/Feed' element={<Feed />} />
-					<Route exact path='details/:id' element={<PropertyDetailHeader />} />
+					<Route exact path='/:listing_id' element={<MainPage />} />
 				</Routes>
 			</PropertyContext.Provider>
 			<Footer />

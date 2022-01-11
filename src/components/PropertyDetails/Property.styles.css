@@ -9,3 +9,106 @@
     margin: 20px;
     grid-template-rows: repeat(3,1fr);
 }
+
+.overview-text {
+    margin: 30px ;
+    line-height: 1.5rem;
+}
+
+.title-overview,
+.features-title {
+    margin: 0 30px;
+    font-size: 2em;
+}
+
+.grid-features {
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    margin: 30px;
+    color: gray;
+}
+.type {
+    grid-column: 1;
+    grid-row: 1;
+}
+.status {
+    grid-column: 1;
+    grid-row: 2;
+}
+.county {
+    grid-column: 1;
+    grid-row: 3;
+}
+.year {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.beds {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.full-baths {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.half-baths {
+    grid-column: 1;
+    grid-row: 7;
+}
+
+.sqft {
+    grid-column: 1;
+    grid-row: 8;
+}
+
+.listId {
+    grid-column: 1;
+    grid-row: 9;
+}
+
+.type-value {
+    grid-column: 2;
+    grid-row: 1;
+}
+.status-value {
+    grid-column: 2;
+    grid-row: 2;
+}
+.county-value {
+    grid-column: 2;
+    grid-row: 3;
+}
+.year-value {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.beds-value {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.full-baths-value {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+.half-baths-value {
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.sqft-value {
+    grid-column: 2;
+    grid-row: 8;
+}
+
+.listId-value {
+    grid-column: 2;
+    grid-row: 9;
+}

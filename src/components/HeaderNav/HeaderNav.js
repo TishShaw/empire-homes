@@ -1,20 +1,16 @@
 import React, { useState, useContext } from 'react';
 import { PropertyContext } from '../Context/PropertyContext';
-import './HeaderNav.styles.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Modal from '../Login/Modal';
 import LoginForm from '../Login/LoginForm'; 
 import Button from '@material-ui/core/Button';
-import { createTheme, responsiveFontSizes } from '@material-ui/core/styles';
+import './HeaderNav.styles.css';
 
-const theme = createTheme({
-	typography: {
-		htmlFontSize: 10,
-	},
-});
+
 
 function HeaderNav() {
 	const [isOpen, setIsOpen] = useState(false);
+	
 	const {user, setUser} = useContext(PropertyContext)
 
 	const handleLoggingOut = (event) => {

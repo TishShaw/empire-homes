@@ -1,10 +1,8 @@
-import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
-import './Card.styles.css';
 import Favorite from '@material-ui/icons/Favorite';
 import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
 import { FormControlLabel, Button } from '@mui/material';
 import Checkbox from '@material-ui/core/Checkbox';
+import './Card.styles.css';
 
 
 function Card({image, price, beds, bath , sqft, line, listings}) {
@@ -17,16 +15,12 @@ function Card({image, price, beds, bath , sqft, line, listings}) {
 					<div className='body'>
 						<p>${price}</p>
 						<p>{line}</p>
-						<p>
-							{beds} bds / {bath} ba / {sqft} sqft
-						</p>
+						<p>{beds} bds / {bath} ba / {sqft} sqft</p>
 					</div>
 					<div className='btn'>
-						<Link to='details/:listing_id' key={listings.listing_id} className='link'>
 							<Button variant='outlined' color='secondary' size='small'>
 								View
-							</Button>
-						</Link>
+							</Button>						
 						<FormControlLabel
 							control={
 								<Checkbox
@@ -42,7 +36,7 @@ function Card({image, price, beds, bath , sqft, line, listings}) {
 					</div>
 				</div>
 			</div>
-		);
+	);
 }
 
 export default Card;
