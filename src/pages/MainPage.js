@@ -23,7 +23,7 @@ function MainPage() {
 		)
 			.then((res) => res.json())
 			.then((res) => {
-				console.log(res)
+				console.log(res.data)
 				setListing(res.data);
 			})
 			.catch((err) => {

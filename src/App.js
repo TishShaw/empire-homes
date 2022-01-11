@@ -34,6 +34,7 @@ function App() {
 				.then((res) => res.json())
 				.then((res) => {
 					setListing(res.data.results);
+					console.log(res.data.results);
 				})
 				.catch((err) => {
 					console.error(err);
@@ -43,12 +44,13 @@ function App() {
 const handleFilter = (event) => {
 	const target = event.target.value;
 	const filterArr = listing.filter((value) => {
-		return value.location.address.line.toLowerCase().includes(target.toLowerCase());
+		return (
+		value.location.address.city.toLowerCase() >= 0 ||
+		value.location.address.postal_code.toLowerCase() >= 0 ||
+		value.location.address.line.toLowerCase().includes(target.toLowerCase()));
 	})
 	setFilteredData(filterArr)
-
 };
-
 	return (
 		<div>
 			<PropertyContext.Provider

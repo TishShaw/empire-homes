@@ -13,7 +13,7 @@ const PropertyDetails = ({ listing }) => {
 				<div className='image-section'>
 					<img
 						className='img-detail'
-						 src=''
+						 src={listing.photos ? listing.photos[0].href : ''}
 						alt='house-detail-image'
 					/>
 				</div>
@@ -39,12 +39,12 @@ const PropertyDetails = ({ listing }) => {
 						<p className='listId'>Listing Id</p>
 						<p className='type-value'>{listing.description.type}</p>
 						<p className='status-value'>{listing.status}</p>
-						 <p className='county-value'>{listing.location.city.county.name}</p>
+						 <p className='county-value'>{listing.location.county.name}</p>
 						<p className='year-value'>{listing.description.year_built}</p> 					
 						<p className='beds-value'>{listing.description.beds}</p>
 						
 						<p className='full-baths-value'>{listing.description.baths_full}</p>
-						<p className='half-baths-value'>{listing.description.baths_half}</p>
+						<p className='half-baths-value'>{listing.description.bath_half ? listing.description.baths_half : 'N/A'}</p>
 						<p className='sqft-value'>{listing.description.sqft}</p> 
 						<p className='listId-value'>{listing.listing_id}</p> 
 					</div>
