@@ -9,7 +9,11 @@ My app is called Empire Estate. It is a Real Estate Listing website for people l
 ### API Used
 https://rapidapi.com/datascraper/api/us-real-estate/
 
-#### Technologies Used 
+
+### Link To Deployed App:
+https://empirehomes.netlify.app
+
+### Technologies Used 
 - React
 - Javascript
 - CSS
@@ -21,15 +25,6 @@ https://rapidapi.com/datascraper/api/us-real-estate/
 - Cd into remote repository ad create a new branch
 - Run npm create-react-app . (with the period at the end)
 - Open vscode 
-
-### Contribution GuideLinespen to contributions
-Please feel free to follow the "fork-and-pull" git flow to make contributions to this application.
-
-1. Fork the repo on GitHub
-2. Clone the project tp your own machine
-3. Commit changes to your own branch
-4. Push your work back up to your fork
-5. Submit a pull request so that we can review your changes
 
 ### User Stories
 
@@ -52,8 +47,15 @@ Please feel free to follow the "fork-and-pull" git flow to make contributions to
 - As a user, I want to have a map view of the property , so that I can see surrounding businesses and landmarks.
 
 
-### Link To Deployed App:
-https://empirehomes.netlify.app
+### Contribution Guidelines to contributions
+Please feel free to follow the "fork-and-pull" git flow to make contributions to this application.
+
+1. Fork the repo on GitHub
+2. Clone the project tp your own machine
+3. Commit changes to your own branch
+4. Push your work back up to your fork
+5. Submit a pull request so that we can review your changes
+
 
 
 ### WireFrames
