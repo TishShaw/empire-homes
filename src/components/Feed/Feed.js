@@ -4,12 +4,9 @@ import { PropertyContext } from '../Context/PropertyContext';
 import Card from '../Card/Card';
 import './Feed.styles.css';
 
-
-
 const Feed = () => {
 	const { filteredData } = useContext(PropertyContext)
-		
-	
+			
 	if(!filteredData) {
 		return <h2>Loading ...</h2>
 	} else {

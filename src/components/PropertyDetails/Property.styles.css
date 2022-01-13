@@ -112,3 +112,13 @@
     grid-column: 2;
     grid-row: 9;
 }
+
+.item {
+    color: black;
+}
+
+@media only screen and (max-width: 650px) {
+    .img-detail {
+        margin: 40px 0;
+    }
+}

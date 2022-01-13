@@ -47,6 +47,23 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .card-container {
         height: 15em;
+        width: 20em;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+    .card-container {
+        height: 20em;
         width: 15em;
+        padding: 30px;
+        margin: 40px auto;
+    }
+
+    .body {
+        margin-bottom: 60px;
+    }
+
+    div.btn {
+        margin-bottom: 20px;
     }
 }

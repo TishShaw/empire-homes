@@ -10,9 +10,7 @@ import './HeaderNav.styles.css';
 
 function HeaderNav() {
 	const [isOpen, setIsOpen] = useState(false);
-	
 	const {user, setUser} = useContext(PropertyContext)
-
 	const handleLoggingOut = (event) => {
 		event.preventDefault();
 		setUser({ username: '' });
@@ -27,13 +25,13 @@ function HeaderNav() {
 
 				<div className='lastItem'>
 					{user.username ? (
-						<button
-							className='logout-btn'
+						<Button Button
+							className='f6 fw6 ttu logout-btn'
 							variant='outlined'
-							color='primary'
+							color='secondary'
 							onClick={handleLoggingOut}>
 							Log Out
-						</button>
+						</Button>
 					) : (
 						<Button
 							className='f6 fw6 ttu '
@@ -50,7 +48,6 @@ function HeaderNav() {
 						<LoginForm setIsOpen={setIsOpen} />
 					</Modal>
 					{user.username ? <p className='p-text'></p> : null}
-					
 				</div>
 			</nav>
 		);

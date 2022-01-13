@@ -4,7 +4,7 @@
     align-items: center;
     background-image: url('../../assets/images/r-architecture-khpWE85ge38-unsplash.jpeg');
     background-position: bottom;
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: 500px;
@@ -12,20 +12,18 @@
     overflow: hidden;
     -webkit-background-size:cover;
     -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
     background-position:bottom;
-    
 }
 
 .inputEL {
-    width: 600px;
+    width: 400px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     margin-left: auto 0;
+    padding-left: 20px;
 }
 
 .input-container {

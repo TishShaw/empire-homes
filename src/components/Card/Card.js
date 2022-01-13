@@ -5,7 +5,7 @@ import Checkbox from '@material-ui/core/Checkbox';
 import './Card.styles.css';
 
 
-function Card({image, price, beds, bath , sqft, line, listings, city, zipCode}, {state}) {
+function Card({image, price, beds, bath , sqft, line, listings, city, zipCode, state}) {
     return (
 			<div className='card-container'>
 				<div className='image-contianer'>

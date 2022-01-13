@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import { PropertyContext } from './components/Context/PropertyContext';
 import Homepage from './pages/Homepage';
 import HeaderNav from './components/HeaderNav/HeaderNav';
-import Feed from './components/Feed/Feed';
 import Footer from './components/Footer/Footer';
 import MainPage from './pages/MainPage';
 
@@ -14,6 +13,7 @@ import MainPage from './pages/MainPage';
 function App() {
 	const [listing, setListing] = useState([]);
 	const [filteredData, setFilteredData] = useState([]);
+	
 
 	const [user, setUser] = useState({
 		username: '',
@@ -22,7 +22,7 @@ function App() {
 
 		useEffect(() => {
 			fetch(
-				'https://us-real-estate.p.rapidapi.com/for-sale?offset=0&limit=42&state_code=MI&city=Detroit&sort=newest',
+				'https://us-real-estate.p.rapidapi.com/for-sale?offset=0&limit=42&state_code=MD&city=Columbia&sort=newest',
 				{
 					method: 'GET',
 					headers: {
@@ -34,7 +34,6 @@ function App() {
 				.then((res) => res.json())
 				.then((res) => {
 					setListing(res.data.results);
-					console.log(res.data.results);
 				})
 				.catch((err) => {
 					console.error(err);
@@ -51,25 +50,26 @@ const handleFilter = (event) => {
 	})
 	setFilteredData(filterArr)
 };
+
 	return (
 		<div>
-			<PropertyContext.Provider
-				value={{
-					user,
-					setUser,
-					handleFilter,
-					listing,
-					setListing,
-					filteredData,
-				}}>
-				<HeaderNav />
-				<Routes>
-					<Route path='/' element={<Homepage />} />
-					<Route path='/Feed' element={<Feed />} />
-					<Route exact path='/:listing_id' element={<MainPage />} />
-				</Routes>
-			</PropertyContext.Provider>
-			<Footer />
+				<PropertyContext.Provider
+					value={{
+						user,
+						setUser,
+						handleFilter,
+						listing,
+						setListing,
+						filteredData,
+					}}>
+					<HeaderNav />
+					<Routes>
+						<Route path='/' element={<Homepage />} />
+						<Route exact path='/:listing_id' element={<MainPage />} />
+					</Routes>
+				</PropertyContext.Provider>
+					<Footer />
+
 		</div>
 	);
 }

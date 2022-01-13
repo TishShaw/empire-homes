@@ -1,7 +1,6 @@
 import React from 'react';
 import './Login.styles.css';
 
-
 const MODAL_STYLES = {
 	display: 'flex',
 	position: 'fixed',
@@ -25,12 +24,10 @@ const OVERLAY_STYLES = {
 function Modal({ open, children }) {
     if(!open) return null
     return (
-			<div className='modal'>
-                <div style={OVERLAY_STYLES} />
-                <div style={MODAL_STYLES}>
-                    {children}
-                </div>
-            </div>
+			<div className='modale'>
+				<div style={OVERLAY_STYLES} />
+				<div style={MODAL_STYLES}>{children}</div>
+			</div>
 		);
 }
 

@@ -3,7 +3,9 @@ import { useParams } from 'react-router-dom';
 import PropertyDetailHeader from '../components/PropertyDetails/PropertyDetail-Header';
 import PropertyDetails from '../components/PropertyDetails/PropertyDetails';
 
+
 function MainPage() {
+
 	const { listing_id } = useParams();
 
 	const [listing, setListing] = useState(null);
@@ -31,10 +33,12 @@ function MainPage() {
 			});
 	}, []);
 
+
     return (
 			<div>
 				<PropertyDetailHeader listing={listing} />
-				<PropertyDetails  listing={listing} />
+				<PropertyDetails listing={listing} />
+			
 			</div>
 		);
 }
