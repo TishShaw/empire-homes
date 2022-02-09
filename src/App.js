@@ -5,10 +5,10 @@ import Homepage from './pages/Homepage';
 import HeaderNav from './components/HeaderNav/HeaderNav';
 import Footer from './components/Footer/Footer';
 import MainPage from './pages/MainPage';
-
-
-
-
+import FeedPage from './pages/FeedPage';
+import ContactPage from './components/ContactPage/ContactPage';
+import ServicePage from './components/ServicesPage/ServicePage';
+import About from './components/About/About';
 
 function App() {
 	const [listing, setListing] = useState([]);
@@ -21,19 +21,16 @@ function App() {
 	});	
 
 		useEffect(() => {
-			fetch(
-				'https://us-real-estate.p.rapidapi.com/for-sale?offset=0&limit=42&state_code=MD&city=Columbia&sort=newest',
-				{
-					method: 'GET',
-					headers: {
-						'x-rapidapi-host': 'us-real-estate.p.rapidapi.com',
-						'x-rapidapi-key': process.env.REACT_APP_X_RAPID_API_KEY,
-					},
-				}
-			)
+			fetch('http://127.0.0.1:5500/src/listings.json', {
+				method: 'GET',
+				headers: {
+					'x-rapidapi-host': 'us-real-estate.p.rapidapi.com',
+					'x-rapidapi-key': process.env.REACT_APP_X_RAPID_API_KEY,
+				},
+			})
 				.then((res) => res.json())
 				.then((res) => {
-					setListing(res.data.results);
+					setListing(res);
 				})
 				.catch((err) => {
 					console.error(err);
@@ -44,32 +41,43 @@ const handleFilter = (event) => {
 	const target = event.target.value;
 	const filterArr = listing.filter((value) => {
 		return (
-		value.location.address.city.toLowerCase() >= 0 ||
-		value.location.address.postal_code.toLowerCase() >= 0 ||
-		value.location.address.line.toLowerCase().includes(target.toLowerCase()));
+			value.location.address.postal_code
+				.toLowerCase()
+				.includes(target.toLowerCase()) ||
+			value.location.address.city
+				.toLowerCase()
+				.includes(target.toLowerCase()) ||
+			value.location.address.line
+				.toLowerCase()
+				.includes(target.toLowerCase())
+		);
 	})
 	setFilteredData(filterArr)
+	console.log(filterArr);
 };
 
 	return (
 		<div>
-				<PropertyContext.Provider
-					value={{
-						user,
-						setUser,
-						handleFilter,
-						listing,
-						setListing,
-						filteredData,
-					}}>
-					<HeaderNav />
-					<Routes>
-						<Route path='/' element={<Homepage />} />
-						<Route exact path='/:listing_id' element={<MainPage />} />
-					</Routes>
-				</PropertyContext.Provider>
-					<Footer />
-
+			<PropertyContext.Provider
+				value={{
+					user,
+					setUser,
+					handleFilter,
+					listing,
+					setListing,
+					filteredData,
+				}}>
+				<HeaderNav />
+				<Routes>
+					<Route path='/' element={<Homepage />} />
+					<Route path='/Feed' element={<FeedPage />} />
+					<Route exact path='/:listing_id' element={<MainPage />} />
+					<Route path='/Contact' element={<ContactPage />} />
+					<Route path='/Services' element={<ServicePage />} />
+					<Route path='/About' element={<About />} />
+				</Routes>
+			</PropertyContext.Provider>
+			<Footer />
 		</div>
 	);
 }
