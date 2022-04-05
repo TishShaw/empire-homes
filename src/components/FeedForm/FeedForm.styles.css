@@ -1,0 +1,25 @@
+.feedForm {
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 30px;
+    width: 100vw;
+    left: 0;
+}
+
+.listingForm__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.listingForm__btn {
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.listingForm__label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

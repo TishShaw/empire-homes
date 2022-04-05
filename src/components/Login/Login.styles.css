@@ -1,192 +1,129 @@
-.ba {
-    border-style: solid;
-    border-width: 1px;
+/*  sign-in form styles */
+.rightside-form,
+.loginform-container {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: Center;
+	align-items: center;
 }
 
-.b--black {
-    border-color: #000;
+.loginform {
+	display: flex;
+	flex-direction: column;
+	justify-content: Center;
+	align-items: center;
+	padding: 30px;
 }
 
-.b--transparent {
-    border-color: transparent;
+.left-form {
+	display: flex;
+	flex-direction: column;
 }
 
-.db {
-    display: block;
+/* .signInBtn {
+	width: 230px;
+	height: 50px;
+	color: #fff;
+	padding: 5px 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	outline: none;
+    background-color: rgb(225, 225, 36);
+    border: none;
+    letter-spacing: 1px;
+} */
+
+
+
+.signInBtn {
+  min-width: 167px;
+  height: 44px;
+  color: #fff;
+  padding: 14px 14px 14px 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 2px solid #adb5bd;
+  background: #adb5bd;
+  text-align: center;
+}
+.signInBtn:hover {
+  background: #fff;
+  color: #adb5bd
 }
 
-.dib {
-    display: inline-block;
+
+
+.cancelBtn {
+  min-width: 167px;
+  height: 40px;
+  color: #adb5bd;
+  padding: 14px 14px 14px 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  background: #fff;
+  text-align: center;
 }
 
-.b {
-    font-weight: bold;
+.cancelBtn:hover {
+  background: #adb5bd;
+  border: 2px solid #adb5bd;
+  color: #fff;
 }
 
-.fw6 {
-    font-weight: 600;
+.upperLeft__title {
+	top: 0;
+	padding-bottom: 50px;
 }
 
-.input-reset {
-    -webkit-appearance: none;
-    -moz-appearance: none;
+.inputEl {
+	margin-bottom: 40px;
+	height: 50px;
+	width: 450px;
+	padding: 20px;
 }
 
-.input-reset::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+.button-controls {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 20px;
 }
 
-.lh-copy {
-    line-height: 1.5;
+/* sign-up form styles */
+
+.name-inputEl {
+	margin-bottom: 45px;
+	height: 50px;
+	width: 450px;
+	padding: 20px;
 }
 
-.link {
-    text-decoration: none;
-    transition: color .15s ease-in;
+.googleBtn {
+	background-color: transparent;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: 1px solid #cccc;
+	width: 300px;
+	height: 60px;
+    padding: 12px 20px 12px 20px;
+    margin: auto;
 }
 
-.link:link, .link:visited {
-    transition: color .15s ease-in;
-}
-
-.link:hover {
-    transition: color .15s ease-in;
-}
-
-.link:active {
-    transition: color .15s ease-in;
-}
-
-.link:focus {
-    transition: color .15s ease-in;
-    outline: 1px dotted currentColor;
-}
-
-.w-100 {
-    width: 550px;
-}
-
-.black-80 {
-    color: rgba(0, 0, 0, .8);
-}
-
-.black {
-    color: #000;
-}
-
-.bg-transparent {
-    background-color: transparent;
-}
-
-.hover-white:hover {
-    color: #fff;
-}
-
-.hover-white:focus {
-    color: #fff;
-}
-
-.hover-bg-black:hover {
-    background-color: #000;
-}
-
-.hover-bg-black:focus {
-    background-color: #000;
-}
-
-.pa0 {
-    padding: 0;
-}
-
-.pa2 {
-    padding: .5rem;
-}
-
-.pa4 {
-    padding: 1.5rem;
-}
-
-.pv2 {
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-}
-
-.ph0 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.ph3 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.ma0 {
-    margin: 0;
-}
-
-.mt3 {
-    margin-top: 1rem;
-}
-
-.mv3 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.mh0 {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.f4 {
-    font-size: 1.25rem;
-}
-
-.f6 {
-    font-size: .875rem;
-}
-
-.measure {
-    max-width: 30em;
-}
-
-.center {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.dim {
-    opacity: 1;
-    transition: opacity .15s ease-in;
-}
-
-.dim:hover, .dim:focus {
-    opacity: .5;
-    transition: opacity .15s ease-in;
-}
-
-.dim:active {
-    opacity: .8;
-    transition: opacity .15s ease-out;
-}
-
-.grow {
-    -moz-osx-font-smoothing: grayscale;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform .25s ease-out;
-}
-
-.grow:hover, .grow:focus {
-    transform: scale(1.05);
-}
-
-.grow:active {
-    transform: scale(.9);
-}
-
-.pointer:hover {
-    cursor: pointer;
+.googleBtn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

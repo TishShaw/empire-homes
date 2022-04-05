@@ -22,7 +22,8 @@ function ContactPage(props) {
 				(error) => {
 					console.log(error.text);
 				}
-			);
+
+				);
 			e.target.reset()
 	}
 
@@ -62,7 +63,7 @@ function ContactPage(props) {
 							placeholder='Inquiry'
 							name='message'
 						/>
-						<input type='submit' value='send message' />
+						<input type='submit' value='send message' className='submit-btn'/>
 					</form>
 				</div>
 			</div>

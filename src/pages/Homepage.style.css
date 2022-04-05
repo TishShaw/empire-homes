@@ -1,0 +1,19 @@
+.homepage-listings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-chart  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    font-size: 20px;
+}
+
+tr, td {
+  border: 2px solid black;  
+  width: 100%;
+}

@@ -1,93 +1,126 @@
-import React, { useState, useContext } from 'react';
-import {PropertyContext} from '../../components/Context/PropertyContext';
-function LoginForm({onClose, setIsOpen}) {
-	const[loginState, setLoginState] = useState('')
-	const [loggedIn, setLoggedIn] = useState(false);
-	const {user, setUser} = useContext(PropertyContext)
+import { useState } from 'react';
+import { Link, Navigate } from 'react-router-dom';
+import { connect, useDispatch, useSelector } from 'react-redux';
+import { PropTypes } from 'prop-types';
+import { login } from '../../redux/actions/authActions';
+import './Login.styles.css';
+import SignupForm from './SignUpForm';
+import axios from 'axios';
 
-	const handleChange = (event) => {
-		event.preventDefault();
+function LoginForm({ setAlert, login, isAuthenticated }) {
+	const [formState, setFormState] = useState({
+		email: '',
+		password: '',
+	});
 
-		setLoginState(event.target.value)
-		console.log(loginState)
-	}
+	const [signupForm, setSignUpForm] = useState(false);
 
-	const handleSubmit= (event) => {
-		event.preventDefault();
-		setUser({ username: loginState})
+	const handleSignUp = (e) => {
+		e.preventDefault();
+		setSignUpForm(true);
+	};
 
-		setLoggedIn(true);
+	const handleCloseSignUp = (e) => {
+		e.preventDefault();
+		setSignUpForm(false);
+	};
 
-		if(loggedIn) {
-			setIsOpen(false)
-		}
-		console.log(user);
-		console.log(loggedIn);
-	}
+	// const userLogin = useSelector((state) => state.userLogin);
+	// const { userData, success } = userLogin;
+	// console.log(userData);
+	// console.log(userLogin);
+	const dispatch = useDispatch();
+	const user = useSelector((state) => state.authReducer);
+	console.log(user);
+	const { email, password } = formState;
+	const handleChange = (e) => {
+		setFormState({ ...formState, [e.target.name]: e.target.value });
+	};
 
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		dispatch(login(formState));
+	};
 	
+	// const loginWithGoogle = async () => {
+	// 	try {
+	// 		const res = await axios.get(
+	// 			`${process.env.REACT_APP_API_URL}/auth/o/google-oauth2/?redirect_uri=${process.env.REACT_APP_API_URL}/home`
+	// 		);
+	// 		window.location.replace(res.data.authorization_url);
+	// 	} catch (err) {
+	// 		console.log('Error logging in');
+	// 	}
+	// };
 
-    return (
-			<>
-				<main className='pa4 black-80'>
-					<form onSubmit={handleSubmit} className='measure center'>
-						<fieldset id='sign_up' className='ba b--transparent ph0 mh0'>
-							<legend className='f4 fw6 ph0 mh0'>Sign In</legend>
-							<div className='mt3'>
-								<label className='db fw6 lh-copy f6' htmlFor='email-address'>
-									Email
-								</label>
-								<input
-									className='pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100'
-									type='email'
-									name='email-address'
-									id='email-address'
-									onChange={handleChange}
-								/>
-							</div>
-
-							<div className='mv3'>
-								<label className='db fw6 lh-copy f6' htmlFor='password'>
-									Password
-								</label>
-								<input
-									className='b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100'
-									type='password'
-									name='password'
-									id='password'
-								/>
-							</div>
-							<label className='pa0 ma0 lh-copy f6 pointer'>
-								<input type='checkbox' /> Remember me
-							</label>
-						</fieldset>
-						<div className=''>
+	if (isAuthenticated) {
+		return <Navigate to='/' />;
+	}
+	return (
+		<div className='loginform-container'>
+			<div className='loginform'>
+				<div className='leftside-form'>
+					<div className='upperLeft'>
+						<h1 className='upperLeft__title'>Login to Your Account</h1>
+						<div className='socials'></div>
+					</div>
+					<div className='lowerLeft'>
+						<form className='left-form' onSubmit={(e) => handleSubmit(e)}>
 							<input
-								className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib'
-								type='submit'
-								value='Sign in'
+								type='email'
+								placeholder='Email'
+								onChange={(e) => handleChange(e)}
+								value={email}
+								name='email'
+								className='inputEl'
+								required
 							/>
-						</div>
-						<button
-							className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib'
-							type='submit'
-							value='Sign in'
-							onClick={onClose}>
-							Cancel
-						</button>
-
-						<div className='lh-copy mt3'>
-							<a href='#0' className='f6 link dim black db'>
-								Sign up
-							</a>
-							<a href='#0' className='f6 link dim black db'>
-								Forgot your password?
-							</a>
-						</div>
-					</form>
-				</main>
-			</>
-		);
+							<input
+								type='password'
+								placeholder='Password'
+								onChange={handleChange}
+								value={password}
+								name='password'
+								className='inputEl'
+								minLength='6'
+								required
+							/>
+							<div className='button-controls'>
+								<button onClick={handleSubmit} className='signInBtn'>
+									Sign In
+								</button>
+								<button onClick={handleSubmit} className='cancelBtn'>
+									Cancel
+								</button>
+							</div>
+							<div className='googleBtn-container'>
+								<p>OR</p>
+								<button className='googleBtn'>
+									<img
+										src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg'
+										alt='sign in with google'
+										width='40px'
+										height='40px'
+										style={{ marginRight: '10px' }}
+									/>
+									Continue With Google{' '}
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 }
 
-export default LoginForm;
+login.propTypes = {
+	login: PropTypes.func.isRequired,
+	isAutheticated: PropTypes.bool,
+};
+
+const mapStateToProps = (state) => ({
+	isAuthenticated: state.authReducer.isAuthenticated,
+});
+
+export default connect(mapStateToProps, { login })(LoginForm);
