@@ -1,43 +1,76 @@
-import Favorite from '@material-ui/icons/Favorite';
-import FavoriteBorder from '@material-ui/icons/FavoriteBorder';
-import { FormControlLabel, Button } from '@mui/material';
-import Checkbox from '@material-ui/core/Checkbox';
+import { Link, useNavigate } from 'react-router-dom';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 import './Card.styles.css';
 
+function ListingCard({
+	key,
+	id,
+	address,
+	price,
+	beds,
+	bath,
+	sqft,
+	city,
+	zipcode,
+	state,
+	slug,
+	status,
+	image,
+}) {
+	const numberWithCommas = (x) => {
+		return x.toString().replace(/\B(?=(?=(\d{3})+(?!\d)))/g, ',');
+	};
 
-function Card({image, price, beds, bath , sqft, line, listings, city, zipCode, state}) {
-    return (
-			<div className='card-container'>
-				<div className='image-contianer'>
-					<img src={image} alt='house' />
-				</div>
-				<div className='main-content'>
-					<div className='body'>
-						<p>${price}</p>
-						<p>{line} {city}, {state} { zipCode}</p>
+	return (
+		<div className='card_content-wrapper'>
+			<Card sx={{ maxWidth: 345 }} key={key}>
+				<Link to={`/${id}`}>
+					<CardMedia
+						component='img'
+						height='140'
+						image={image}
+						alt='house image'
+					/>
+				</Link>
+				<CardContent>
+					<Typography variant='h6' color='text.secondary' component='div'>
+						Single-Family Home
+					</Typography>
+					<Typography gutterBottom variant='h5' component='div'>
+						${numberWithCommas(price)}
+					</Typography>
+					<Typography variant='body2' color='text.secondary'>
+						{address} {city}, {state} {zipcode}
+					</Typography>
+				</CardContent>
+				<CardActions
+					style={{ display: 'flex', justifyContent: 'space-between' }}>
+					<Button
+						size='small'
+						style={{
+							backgroundColor: 'rgb(253, 242, 244)',
+							color: 'rgb(226, 81, 114)',
+						}}>
+						{status}
+					</Button>
 
-						<p>{beds} bds / {bath} ba / {sqft} sqft</p>
+					<div>
+						{beds}
+						<i className='fa-solid fa-bed icon'></i>
+						{bath}
+						<i className='fa-solid fa-bath icon'></i>
+						{sqft}
+						<i className='fa-solid fa-mountain-sun icon'></i>
 					</div>
-					<div className='btn'>
-							<Button variant='outlined' color='secondary' size='small'>
-								View
-							</Button>						
-						<FormControlLabel
-							control={
-								<Checkbox
-									className='heart-icon'
-									icon={<FavoriteBorder />}
-									checkedIcon={<Favorite />}
-									name='checkedH'
-									value={listings}
-								/>
-							}
-							label='Like'
-						/>
-					</div>
-				</div>
-			</div>
+				</CardActions>
+			</Card>
+		</div>
 	);
 }
 
-export default Card;
+export default ListingCard;

@@ -1,0 +1,78 @@
+.contact-page__hero:before {
+    content: '';
+    background-image: url('../../assets/images/r-architecture-2gDwlIim3Uw-unsplash.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.contact-page__hero {
+    height: 500px;
+}
+
+.contact-page {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-page__title {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.contact-page__subtext {
+    width: 750px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-page__content {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.submit-btn {
+    width: 200px;
+    background-color: brown;
+    color: aliceblue;
+}
+
+.contact-page__form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+    height: 15em;
+}
+
+#contact-page__name {
+    grid-row: 1;
+}
+
+#contact-page__email {
+    grid-row: 2;
+    grid-column: 1/ span 2;
+
+}
+
+#contact-page__message {
+    grid-row: 3;
+    grid-column: 1/ span 2;
+    height: 100px;
+}
+
+textarea [type=message]:focus {
+    outline: none;
+}

@@ -1,0 +1,171 @@
+.banner {
+	height: 500px;
+}
+
+.banner-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 30px;
+}
+
+.col-1 {
+	grid-column: 1;
+}
+
+.col-2 {
+	grid-column: 2;
+}
+
+.col-3 {
+	grid-column: 3;
+}
+
+.banner-container-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding: 30px;
+}
+
+.bannerBtn {
+	background-color: transparent;
+	border: 1px solid rgb(186, 186, 186);
+	width: 200px;
+	height: 50px;
+	padding: 10px;
+	font-size: 25px;
+}
+
+.banner-paragraph {
+	width: 300px;
+}
+
+.banner-title-one {
+	width: 300px;
+	font-size: 35px;
+}
+
+.banner-title-two {
+	width: 350px;
+	font-size: 35px;
+}
+
+.banner-title-three {
+	width: 300px;
+	font-size: 35px;
+}
+
+/* Banner Search Section */
+.banner-search {
+	margin: 30px;
+	margin-top: 50px;
+}
+
+.banner-search-content {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.banner-search-img {
+	grid-column: 2;
+}
+.banner-search-context {
+	grid-column: 1;
+	grid-row: 1;
+	text-align: center;
+	margin: auto;
+}
+
+.banner-search-content-two {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.banner-search-context-two {
+	grid-column: 2;
+	grid-row: 1;
+	text-align: center;
+	margin: auto;
+}
+
+.banner-search-imgTwo {
+	grid-column: 1;
+}
+
+.banner-searchBtn {
+	padding: 10px;
+	background-color: transparent;
+}
+
+.one {
+	background-color: rgb(70, 64, 64);
+	color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+	.banner {
+		height: 1200px;
+		width: 100%;
+	}
+
+	.banner-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.banner-search-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: right;
+	}
+
+	.banner-search-content-two {
+		margin-top: 100px;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		text-align: right;
+	}
+
+	.banner-search {
+		height: 1400px;
+	}
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+	.banner-search {
+		height: 1300px;
+	}
+
+	.banner-search-content {
+		margin-top: 90px;
+	}
+
+	.banner-search-img,
+	.banner-search-imgTwo {
+		margin-bottom: 20px;
+		height: 300px;
+		width: 100%;
+	}
+
+	.banner {
+		height: 1200px;
+		width: 100%;
+	}
+
+	.banner-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.banner-title-two {
+		width: 300;
+	}
+}

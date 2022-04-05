@@ -3,18 +3,16 @@ function PropertyDetailHeader({listing}) {
 if(!listing){
 	return null
 }
-
-
     return (
 			<div className='prop-wrapper'>
-				<div className='details-container' key={listing.listing_id}>
-					{listing.location ? <h1 className='prop-title'>{listing.location.address.line}</h1> : ''}
-					<p className='price-prop'>${listing.list_price}</p>
+				<div className='details-container' key={listing.id}>
+					<h1 className='prop-title'>{listing.address}</h1>
+					<p className='price-prop'>${listing.price}</p>
 					<p className='prop-breadcrumb'>
-						{listing.description ? listing.description.beds : '0'}
+						 {listing.bedrooms}
 						<span> Beds / </span>
-						{listing.description ? listing.description.baths_full : '0'}
-						<span> Baths </span>/ {listing.description ? listing.description.sqft: '0'}
+						{listing.bathrooms}
+						<span> Baths </span>/ {listing.sqft}
 						<span> sq Ft </span>
 					</p>
 				</div>

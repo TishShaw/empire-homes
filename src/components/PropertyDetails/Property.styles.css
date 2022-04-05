@@ -122,3 +122,8 @@
         margin: 40px 0;
     }
 }
+.map {
+    display: flex;
+    justify-content: space-between;
+
+}
