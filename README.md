@@ -1,36 +1,15 @@
 # Empire Homes
+<img width="1427" alt="homescreen" src="https://user-images.githubusercontent.com/92543814/164547376-86951027-a1e6-4f6c-98d3-413e3d926259.png">
 
-# Description
+## Description
 
-My app is called Empire Estate. It is a Real Estate Listing website for people looking to purchase a new home. Users can make filtered searches in any city they are looking to relocate and save property listings that are actively for sale on the market. In the future, I would like to add a messaging platform so users will be able to send messages and request appointments in the app.
+[Empire Homes](https://empirehomes.netlify.app/) is a serverless real eatate listing website for people looking to purchase a new home. Users can make filtered based searches to quickly find the results they are looking for. Powered by [rapid API](https://rapidapi.com/datascraper/api/us-real-estate/) 
 
-# Planning Process
+## Empire Homes User Stories
 
-### API Used
-https://rapidapi.com/datascraper/api/us-real-estate/
+- As a user, I want to filter my searches, so that I can view properties with certain living features.
 
-
-### Link To Deployed App:
-https://empirehomes.netlify.app
-
-### Technologies Used 
-- React
-- Javascript
-- CSS
-- VScode
-
-### Getting Started/ Installation Instructions:
-- Fork the repo
-- Open your terminal, git clone forked repo
-- Cd into remote repository ad create a new branch
-- Run npm create-react-app . (with the period at the end)
-- Open vscode 
-
-### User Stories
-
-- As a user, I want to filter my searches, so that I can view properties with certain living features .
-
-- As a user, I want to search available properties in different cities, so that I have a variety of options on places to move.
+- As a user, I want to search available properties, so that I can have a variety of options on places to move.
 
 #### MVP Goals
 
@@ -40,24 +19,32 @@ https://empirehomes.netlify.app
 
 #### Stretch Goals
 
-- As a user, I want to toggle light/dark mode, so that I reduce blue light exposure and help with eye strain that comes with prolonged screen time.
-
 -  As a user, I want to save my favorite properties, so that I can easily access properties I want to schedule for a showing.
 
 - As a user, I want to have a map view of the property , so that I can see surrounding businesses and landmarks.
 
+## Wireframing & Planning
+<img width="1158" alt="empire-homes-wireframe" src="https://user-images.githubusercontent.com/92543814/164549894-45d067b4-f12b-4421-92ab-9a668884db32.png">
 
-### Contribution Guidelines to contributions
-Please feel free to follow the "fork-and-pull" git flow to make contributions to this application.
+## Technologies Used 
 
-1. Fork the repo on GitHub
-2. Clone the project tp your own machine
-3. Commit changes to your own branch
-4. Push your work back up to your fork
-5. Submit a pull request so that we can review your changes
+The frontend was built with React, CSS, Material UI and context API to manage state throught the app. The backend was built with firebase firestore utilizing BaaS and providing serverless development architecture. Due to the size of the application, I chose Firebase to implement autentication and data storage. I chose React, a javascript framework, for the frontend because it breaks down complex UI/UX developement into simple components while enhancing the user experience. 
 
 
+## Getting Started/ Installation Instructions:
+```
+# Clone this repository
+$ git clone https://github.com/TishShaw/empire-homes.git
 
-### WireFrames
+# Cd into remote repository
+$ cd empire-homes
 
-![Empire Homes WebApp](./src/assets/empire-homes-wireframe.png?raw=true "Empire Homes")
+# Run development server
+$ npm run start
+```
+
+
+## Contribution Guidelines
+All feedback and suggestions are welcome! Feel free to drop an issue.
+
+If you'd like to contribute to the codebase, please fork and clone this repo, then submit a pull request with any code changes.
