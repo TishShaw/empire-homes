@@ -1,0 +1,48 @@
+.feed-container {
+	width: 100vw;
+    height: 100%;
+   
+}
+
+.feedPage-title {
+    font-size: 25px;
+    margin-left: 10px;
+
+}
+
+.feed__results-container {
+    height: 100vh;
+    margin-top: 100px;
+
+}
+
+
+.feed__results-container-title {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+.feed__form {
+    height: 100px;
+	width: 100vw;
+}
+
+.feed__results-paginator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feed__results {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}

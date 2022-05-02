@@ -10,23 +10,17 @@ import {
 
 const middleWare = [thunk];
 
-const getListingsFromLocalStorage = localStorage.getItem('listings')
-	? JSON.parse(localStorage.getItem('listings'))
-	: [];
-
 const retrieveUserFromStorage = localStorage.getItem('userData')
 	? JSON.parse(localStorage.getItem('userData'))
 	: [];
 
 const initialState = {
-	listings: getListingsFromLocalStorage,
 	userLogin: retrieveUserFromStorage,
 };
 
 const reducers = combineReducers({
 	alertReducer,
-	authReducer,
-	// googleAuthReducer,
+	userLogin: authReducer,
 	listingsReducer,
 	listingDetailsReducer,
 	listingsFormReducer,

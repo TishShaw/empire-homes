@@ -1,109 +1,71 @@
-import { useState } from 'react';
-import { Navigate } from 'react-router-dom';
-import { connect } from 'react-redux';
-import { PropTypes } from 'prop-types';
-import { signup } from '../../redux/actions/authActions';
-
+import { useState, useContext } from 'react';
+import {Navigate} from 'react-router-dom';
+import ContextData from '../../context/Context';
+import { auth } from '../../Firebase';
 import './Login.styles.css';
 
-function SignupForm({  signup, isAuthenticated }) {
-	const [registrationFormState, setRegistrationFormState] = useState({
-		name: '',
-		email: '',
-		password: '',
-		password2: '',
-	});
+function SignupForm() {
+	const { handleSignUp, user } = useContext(ContextData);
+	const [email, setEmail] = useState('');
+	const [password, setPassword] = useState('');
 
-	const { name, email, password, password2 } = useState(registrationFormState);
-
-	const [signupForm, setSignUpForm] = useState(false);
-
-	const handleChange = (e) => {
-		e.preventDefault();
-
-		setRegistrationFormState({
-			...registrationFormState,
-			[e.target.name]: e.target.value,
-		});
-	};
-
-
-
-	const handleSubmitSignup = (e) => {
-		e.preventDefault();
-		
-		if (password !== password2) {
-			return ('Passwords do not match');
-		} else {
-			signup({ name, email, password, password2 });
-		}
-	};
-
-	if (isAuthenticated) {
+	if (user) {
 		return <Navigate to='/' />;
 	}
 	return (
-		<>
-			<div className='rightside-form'>
+		<div className='rightside-form'>
+			<div className='signup-container'>
 				<div className='right-form'>
 					<h1 className='upperRight-title'>Create An Account</h1>
 				</div>
-				<form className='left-form' onSubmit={(e) => handleSubmitSignup(e)}>
-					<input
+				<form
+					className='left-form'
+					onSubmit={(e) => {
+						e.preventDefault();
+						handleSignUp(auth, email, password);
+					}}>
+					{/* <input
 						type='name'
 						placeholder='Full Name'
-						onChange={(e) => handleChange(e)}
+						onChange={(e) => setName(e.target.value)}
 						className='name-inputEl'
-						value={name}
-						name='name'
-					/>
+					
+					/> */}
 					<input
 						type='email'
 						placeholder='Email'
-						onChange={(e) => handleChange(e)}
+						onChange={(e) => setEmail(e.target.value)}
 						className='email-inputEl'
-						value={email}
-						name='email'
 					/>
 					<input
 						type='password'
 						placeholder='Password'
-						onChange={(e) => handleChange(e)}
+						onChange={(e) => setPassword(e.target.value)}
 						className='password-inputEl'
-						value={password}
-						name='password'
 					/>
-					<input
-						type='password'
-						placeholder='Confirm Password'
-						onChange={(e) => handleChange(e)}
-						className='password-inputEl'
-						value={password2}
-						name='password2'
-					/>
-					<button type='submit' className='signInBtn'>
-						Submit
-					</button>
+					<div className='button-controls'>
+						<button className='signInBtn' type='submit'>
+							Sign Up
+						</button>
+						<button className='cancelBtn'>Cancel</button>
+					</div>
 				</form>
-				<div>
+				<div className='googleBtn-container'>
 					<p>OR</p>
 					<button className='googleBtn'>
-						<img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg' />
+						<img
+							src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg'
+							alt='sign in with google'
+							width='40px'
+							height='40px'
+							style={{ marginRight: '10px' }}
+						/>
 						Continue With Google{' '}
 					</button>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 
-signup.propTypes = {
-	signup: PropTypes.func.isRequired,
-	isAutheticated: PropTypes.bool,
-};
-
-const mapStateToProps = (state) => ({
-	isAuthenticated: state.authReducer.isAuthenticated,
-});
-
-export default connect(mapStateToProps, {signup})(SignupForm);
+export default SignupForm;

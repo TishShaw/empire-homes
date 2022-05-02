@@ -1,34 +1,23 @@
-import React, { useRef, useState, useEffect } from 'react';
-import {useSelector, useDispatch } from 'react-redux';
+import React, { useRef, useState, useEffect, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { BiSliderAlt } from 'react-icons/bi';
 import { IoMdClose } from 'react-icons/io';
 import { BiSearchAlt } from 'react-icons/bi';
 import { Popover } from 'react-tiny-popover';
-import  FeedForm  from '../FeedForm/FeedForm';
-import { getListings } from '../../redux/actions/listingActions';
+import FeedForm from '../FeedForm/FeedForm';
+import ContextData from '../../context/Context';
 import './Hero.style.css';
 
 function Hero({ Slides }) {
-	const [listing, setListing] = useState([]);
-	const dispatch = useDispatch();
-	const data = useSelector((state) => state.listingsReducer)
-
-	const { listings, loading, success, error } = data;
-	
-	useEffect(() => {
-		dispatch(getListings());
-		setListing(listings);
-	}, []);
-
+	const { listing, setListing } = useContext(ContextData);
 	const navigate = useNavigate();
 	const [current, setCurrent] = useState(0);
-
 	const [filterData, setFilterData] = useState([]);
+
 	const length = Slides.length;
 	const timeout = useRef(null);
 
-    const [isPopoverOpen, setIsPopoverOpen] = useState(false);
+	const [isPopoverOpen, setIsPopoverOpen] = useState(false);
 
 	useEffect(() => {
 		const nextSlide = () => {
@@ -46,23 +35,24 @@ function Hero({ Slides }) {
 
 	const handleFilter = (event) => {
 		const target = event.target.value;
-		const filterArr = listings.filter((value) => {
+		const filterArr = listing.filter((value) => {
 			return (
-				value.address.toLowerCase().includes(target.toLowerCase())||
+				value.address.toLowerCase().includes(target.toLowerCase()) ||
 				value.city.toLowerCase().includes(target.toLowerCase()) ||
-				value.zipcode.toLowerCase().includes(target.toLowerCase()));
-		})
+				value.zipcode.toLowerCase().includes(target.toLowerCase())
+			);
+		});
 		setFilterData(filterArr);
-		setListing(filterArr);		
-		console.log(filterData)
+		setListing(filterArr);
+		console.log(filterData);
 		console.log(filterArr);
-	}; 
+	};
 
-		const handleSearchClick = (event) => {
-			event.preventDefault();
-			setListing(filterData);
-			navigate('/Feed');
-		};
+	const handleSearchClick = (event) => {
+		event.preventDefault();
+		setListing(filterData);
+		navigate('/Feed');
+	};
 
 	return (
 		<div className='hero'>
@@ -102,7 +92,7 @@ function Hero({ Slides }) {
 							SEARCH
 						</button>
 						<button type='submit' className='hero-searchIcon'>
-							<BiSearchAlt className='searchBtnEl'/>
+							<BiSearchAlt className='searchBtnEl' />
 						</button>
 					</form>
 				</div>

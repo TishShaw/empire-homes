@@ -1,13 +1,9 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext, useState } from 'react';
+import { Link, Navigate } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { FaTimes } from 'react-icons/fa';
 import './Navbar.style.css';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Modal from '@mui/material/Modal';
-import LoginForm from '../Login/LoginForm';
-import SignUpForm from '../Login/SignUpForm';
+import ContextData from '../../context/Context';
 
 const style = {
 	position: 'absolute',
@@ -27,20 +23,15 @@ const style = {
 };
 
 function Navbar(props) {
+	const {user, handleLogout} = useContext(ContextData);
+	console.log(user);
+
 	const [isLogin, setIsLogin] = useState(false);
-	const [isSignUp, setIsSignUp] = useState(false);
 
-	const handleLogin = () => {
-		setIsLogin(true);
-		console.log('login');
-	};
+	// Modal state
+	const [open, setOpen] = useState(false);
 
-	const handleSignUp = () => {
-		setIsSignUp(true);
-		console.log('signup');
-	};
-
-	const [open, setOpen] = React.useState(false);
+	// Navbar state
 	const [showing, setShowing] = useState(false);
 	const [close, setClose] = useState(false);
 
@@ -50,7 +41,6 @@ function Navbar(props) {
 	};
 
 	const handleOpen = () => setOpen(true);
-	const handleClose = () => setOpen(false);
 
 	return (
 		<div className='navbar-container'>
@@ -73,20 +63,35 @@ function Navbar(props) {
 				)}
 			</button>
 
-			<div className='nav-mobile'>
-				{showing ? (
-					<div className='mobileLinks'>
-						<ul className='mobile-navbar-list' onClick={handleShowing}>
+			{showing ? (
+				<div className='mobileLinks active'>
+					<ul className='mobile-navbar-list' onClick={handleShowing}>
+						<li className='mobile-navbar-item'>
+							<Link to='/'>Home</Link>
+						</li>
+						<li className='mobile-navbar-item'>
+							<Link to='/feed'>Search</Link>
+						</li>
+						{user ? (
 							<li className='mobile-navbar-item'>
-								<Link to='/'>Home</Link>
+								<Link to='/feed'>Account</Link>
 							</li>
-							<li className='mobile-navbar-item'>
-								<Link to='/feed'>Search</Link>
-							</li>
-						</ul>
-					</div>
-				) : null}
-			</div>
+						) : (
+							''
+						)}
+					</ul>
+					<button className='mobile-authBtn' onClick={handleShowing}>
+						{!user ? (
+							<>
+								<Link to='/login'>Sign In </Link> |
+								<Link to='/signup'>Sign Up</Link>
+							</>
+						) : (
+							<div onClick={handleLogout}>Logout</div>
+						)}
+					</button>
+				</div>
+			) : null}
 
 			<h1 className='navbar-title'>
 				<Link to='/'>Empire Homes</Link>
@@ -94,104 +99,25 @@ function Navbar(props) {
 			<div>
 				<div onClick={handleOpen}>
 					<ul className='navbar-auth-sec'>
-						<li>
-							<div onClick={() => setIsLogin(true)}>Sign In</div>
-						</li>{' '}
-						|{' '}
-						<li>
-							<div onClick={() => setIsLogin(false)}>Sign Up</div>
-						</li>
+						{!user ? (
+							<>
+								<li>
+									<div onClick={() => setIsLogin(true)}>
+										<Link to='/login'> Sign In</Link>
+									</div>
+								</li>{' '}
+								|{' '}
+								<li>
+									<div onClick={() => setIsLogin(false)}>
+										<Link to='/signup'>Sign Up</Link>
+									</div>
+								</li>
+							</>
+						) : (
+							<div onClick={handleLogout}>Logout</div>
+						)}
 					</ul>
 				</div>
-				<Modal
-					open={open}
-					onClose={handleClose}
-					aria-labelledby='modal-modal-title'
-					aria-describedby='modal-modal-description'>
-					<Box sx={style}>
-						{isLogin ? (
-							<div
-								style={{
-									display: 'flex',
-									justifyContent: 'space-between',
-									flexDirection: 'column',
-									alignItems: 'center',
-									height: 120,
-								}}>
-								<div className='modalDiv'></div>
-								<Typography
-									id='modal-modal-description'
-									style={{
-										display: 'flex',
-										justifyContent: 'center',
-										alignItems: 'center',
-										marginTop: '-300px',
-									}}>
-									<LoginForm />
-								</Typography>
-
-								<Typography
-									id='modal-modal-description'
-									style={{
-										backgroundColor: 'rgb(179, 173,173)',
-										height: '150px',
-										color: ' white',
-										fontSize: '20px',
-										bottom: 0,
-										width: 600,
-										display: 'flex',
-										justifyContent: 'center',
-										flexDirection: 'column',
-										alignItems: 'center',
-										padding: 40,
-										marginBottom: '-350px',
-									}}>
-									Not a Member ? CREATE AN ACCOUNT
-								</Typography>
-							</div>
-						) : (
-							<div
-								style={{
-									display: 'flex',
-									justifyContent: 'space-between',
-									flexDirection: 'column',
-									alignItems: 'center',
-									height: 120,
-								}}>
-								<div className='modalDiv'></div>
-								<Typography
-									id='modal-modal-description'
-									style={{
-										display: 'flex',
-										justifyContent: 'center',
-										alignItems: 'center',
-										marginTop: '-300px',
-									}}>
-									<SignUpForm />
-								</Typography>
-
-								<Typography
-									id='modal-modal-description'
-									style={{
-										backgroundColor: 'rgb(179, 173,173)',
-										height: '150px',
-										color: ' white',
-										fontSize: '20px',
-										bottom: 0,
-										width: 600,
-										display: 'flex',
-										justifyContent: 'center',
-										flexDirection: 'column',
-										alignItems: 'center',
-										padding: 40,
-										marginBottom: '-350px',
-									}}>
-									Already a Member ? Sign In
-								</Typography>
-							</div>
-						)}
-					</Box>
-				</Modal>
 			</div>
 		</div>
 	);

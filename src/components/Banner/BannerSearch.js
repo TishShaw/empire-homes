@@ -10,7 +10,7 @@ function BannerSearch(props) {
 					<img src={image} alt='' className='banner-search-img' />
 					<div className='banner-search-context'>
 						<h1>Get quality listing</h1>
-						<p>
+						<p className='banner-search-paragraph'>
 							Our network’s unique tools give you more when looking for your
 							next home. More data. More properties. More neighborhood
 							information. See for yourself.{' '}
@@ -21,7 +21,7 @@ function BannerSearch(props) {
 				<div className='banner-search-content-two'>
 					<div className='banner-search-context-two'>
 						<h1>Get quality listing</h1>
-						<p>
+						<p className='banner-search-paragraph'>
 							Our network’s unique tools give you more when looking for your
 							next home. More data. More properties. More neighborhood
 							information. See for yourself.{' '}

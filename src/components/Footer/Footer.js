@@ -16,7 +16,7 @@ function Footer(props) {
 				{
 					Data.map((item) => {
 						return (
-							<ul className='list-container'>
+							<ul className='list-container' key={item.id}>
 								<h6 className='footer-heading'>{item.title}</h6>
 								<li className='footer-item'>{item.listItemOne}</li>
 								<li className='footer-item'>{item.listItemTwo}</li>

@@ -31,16 +31,18 @@
 	}
 
 	.footer-heading {
-		font-size: 21px;
+		font-size: 24px;
 		font-weight: bold;
 	}
 
 	.footer-item {
-		font-size: 20px;
+		font-size: 22px;
 	}
 }
 
-@media screen and (max-width: 480px) and (orientation: portrait) {
+
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
 	.footer-container {
 		width: 100%;
 		bottom: 0;
@@ -55,12 +57,16 @@
 		color: #fff;
 	}
 
+	.footer-heading {
+		font-size: 20px;
+	}
+
 	.footer-item {
-		font-size: 5px;
+		font-size: 15px;
 	}
 
 	.footer-logo {
-		height: 200px;
+		height: 150px;
 	}
 
 	.list-container {
@@ -71,14 +77,15 @@
 
 	.copyright {
 		text-align: center;
-		font-size: 5px;
+		font-size: 12px;
+		margin-bottom: 5px;
 	}
 }
 
 @media screen and (max-width: 400px) and (orientation: portrait) {
 
 	.footer-item {
-		font-size: 5px;
+		font-size: 15px;
 		line-height: 22px;
 	}
 

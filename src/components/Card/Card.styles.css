@@ -11,3 +11,23 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+.cardEl {
+    position: relative;
+}
+
+
+.cardImg{
+    display: block;
+    width: 100%;
+}
+
+.heartIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+
+.heartIcon:hover {
+    color: red;
+}

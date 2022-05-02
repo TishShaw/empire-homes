@@ -1,0 +1,6274 @@
+[
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/0c17470158d60d44dfd433459747d7c4l-m606286013s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T20:48:58Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"central_heat",
+			"community_outdoor_space",
+			"cul_de_sac",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"hardwood_floors",
+			"recreation_facilities",
+			"washer_dryer",
+			"community_swimming_pool",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"lake"
+		],
+		"permalink": "7051-Ivoryhand-Pl_Columbia_MD_21045_M69292-83529",
+		"status": "for_sale",
+		"list_date": "2022-04-07T21:11:21Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-09T14:00:00",
+				"methods": ["in_person"],
+				"description": "Please wear provided shoe covering, or remove shoes.",
+				"end_date": "2022-04-09T16:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "B5FC5484FBAE7D0D2CA3F4421C309024"
+		},
+		"branding": [
+			{
+				"name": "Rory S. Coakley Realty, Inc.",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/0c17470158d60d44dfd433459747d7c4l-m606286013s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/0c17470158d60d44dfd433459747d7c4l-m1890952069s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 440000,
+		"matterport": false,
+		"property_id": "6929283529",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1976,
+			"baths_3qtr": null,
+			"sold_date": "2014-07-09",
+			"sold_price": 332000,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 8000,
+			"sqft": 1842,
+			"baths": 3,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 2,
+			"beds": 3,
+			"type": "single_family"
+		},
+		"listing_id": "2941896142",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.838143,
+					"lat": 39.179585
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "7051 Ivoryhand Pl"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=7051%20Ivoryhand%20Pl%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=hDWMYfCqh1tPh5DoSk3H-1q4ZDE=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941896142",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "529739502",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/63a17b26992a5425f49dd2fc3ded30e6l-m664452818s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T16:00:35Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"dining_room",
+			"disability_features",
+			"dishwasher",
+			"forced_air",
+			"hardwood_floors",
+			"recreation_facilities",
+			"washer_dryer",
+			"two_or_more_stories",
+			"private_bathroom"
+		],
+		"permalink": "10578-Twin-Rivers-Rd_Columbia_MD_21044_M62560-30193",
+		"status": "for_sale",
+		"list_date": "2022-04-07T20:04:03Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-09T13:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-09T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "87D17C71B60CAAB68C35B5CB85DBE2FD"
+		},
+		"branding": [
+			{
+				"name": "Long & Foster Clarksville",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/63a17b26992a5425f49dd2fc3ded30e6l-m664452818s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/63a17b26992a5425f49dd2fc3ded30e6l-m2393587593s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 289000,
+		"matterport": false,
+		"property_id": "6256030193",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1975,
+			"baths_3qtr": null,
+			"sold_date": "2011-07-27",
+			"sold_price": 106050,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": null,
+			"sqft": 1503,
+			"baths": 3,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 2,
+			"beds": 3,
+			"type": "townhomes"
+		},
+		"listing_id": "2941892658",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.879096,
+					"lat": 39.220779
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "10578 Twin Rivers Rd"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=10578%20Twin%20Rivers%20Rd%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=zSQznhVN0noPWSEv6dd5jZVH6ho=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941892658",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "524985046",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "503503478",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/258281233a0ef8b8716779c17f5dec4dl-m4252946822s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T15:44:50Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"hardwood_floors",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"updated_kitchen",
+			"master_bedroom",
+			"open_floor_plan",
+			"floor_plan",
+			"master_suite",
+			"shopping"
+		],
+		"permalink": "5908-Fleets-of-Time-Ct-A4-40_Clarksville_MD_21029_M52286-85473",
+		"status": "for_sale",
+		"list_date": "2022-04-07T19:44:43Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "56F4CCB12E751E0BBA9CC7D3048D2461"
+		},
+		"branding": [
+			{
+				"name": "Realty 1 Maryland, Llc",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/258281233a0ef8b8716779c17f5dec4dl-m4252946822s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/258281233a0ef8b8716779c17f5dec4dl-m3233913513s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 604900,
+		"matterport": false,
+		"property_id": "5228685473",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 2003,
+			"baths_3qtr": null,
+			"sold_date": "2020-08-18",
+			"sold_price": 495000,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": null,
+			"sqft": 2420,
+			"baths": 4,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 3,
+			"beds": 3,
+			"type": "townhomes"
+		},
+		"listing_id": "2941891870",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21029",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.933789,
+					"lat": 39.208168
+				},
+				"city": "Clarksville",
+				"state_code": "MD",
+				"line": "5908 Fleets of Time Ct Unit A4-40"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5908%20Fleets%20of%20Time%20Ct%20Unit%20A4-40%2C%20Clarksville%2C%20MD%2021029&size=640x480&source=outdoor&signature=mw0HM9oyxU0JCeQvxqUXyZFyIAE=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941891870",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "2914422589",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				},
+				{
+					"listing_id": "2916014767",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "563020574",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "561677226",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/d400c46ed2f56443e1e04de732f97e4dl-m1060319154s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T13:55:22Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_golf",
+			"den_or_office",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"golf_course_lot_or_frontage",
+			"hardwood_floors",
+			"laundry_room",
+			"recreation_facilities",
+			"spa_or_hot_tub",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"updated_kitchen",
+			"high_ceiling",
+			"cathedral_ceiling",
+			"ensuite",
+			"golf_course",
+			"shopping"
+		],
+		"permalink": "5317-Woodlot-Rd_Columbia_MD_21044_M53198-07887",
+		"status": "for_sale",
+		"list_date": "2022-04-07T17:43:54Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-09T13:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-09T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "2023C5E3554CCFADF0C662F2C930F0C2"
+		},
+		"branding": [
+			{
+				"name": "Northrop Realty, A Long & Foster Company",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/d400c46ed2f56443e1e04de732f97e4dl-m1060319154s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/d400c46ed2f56443e1e04de732f97e4dl-m623219516s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 725000,
+		"matterport": false,
+		"property_id": "5319807887",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1995,
+			"baths_3qtr": null,
+			"sold_date": "2019-07-15",
+			"sold_price": 595000,
+			"baths_full": 4,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": 12559,
+			"sqft": 3962,
+			"baths": 4,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 3,
+			"beds": 5,
+			"type": "single_family"
+		},
+		"listing_id": "2941885300",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.894363,
+					"lat": 39.223146
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "5317 Woodlot Rd"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5317%20Woodlot%20Rd%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=RfdxLXrfvo6H90uqRH9w2dCXnZI=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941885300",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "653658806",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/7a28c32155029fd98f8ad18b4e5e5b00l-m2534774247s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T15:10:00Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_golf",
+			"dining_room",
+			"disability_features",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"golf_course_lot_or_frontage",
+			"hardwood_floors",
+			"recreation_facilities",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"ensuite",
+			"new_roof",
+			"golf_course",
+			"lake",
+			"shopping"
+		],
+		"permalink": "5289-Corncockle-Ct_Columbia_MD_21045_M58699-64996",
+		"status": "for_sale",
+		"list_date": "2022-04-07T17:15:57Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-09T13:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-09T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			},
+			{
+				"start_date": "2022-04-10T13:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-10T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "EFAFC2C61190E4DB8C8DFDF3EA70BBC3"
+		},
+		"branding": [
+			{
+				"name": "Northrop Realty, A Long & Foster Company",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/7a28c32155029fd98f8ad18b4e5e5b00l-m2534774247s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/7a28c32155029fd98f8ad18b4e5e5b00l-m2627213733s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 675000,
+		"matterport": false,
+		"property_id": "5869964996",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1978,
+			"baths_3qtr": null,
+			"sold_date": "2004-08-24",
+			"sold_price": 440000,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": 12153,
+			"sqft": 3106,
+			"baths": 3,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 3,
+			"beds": 6,
+			"type": "single_family"
+		},
+		"listing_id": "2941883873",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.828775,
+					"lat": 39.224204
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "5289 Corncockle Ct"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5289%20Corncockle%20Ct%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=vFp-gNAf9YAKC4DE7QEjjbc-ooI=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941883873",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "618082670",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "650842774",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "650835466",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "642077338",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "617954002",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "590490558",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "578773066",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/98e00da0180a2d7819a7be076843eaedl-m2488352401s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T12:23:42Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"central_heat",
+			"community_outdoor_space",
+			"cul_de_sac",
+			"den_or_office",
+			"dishwasher",
+			"family_room",
+			"hardwood_floors",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"groundscare"
+		],
+		"permalink": "6620-Forest-Shade-Trl_Clarksville_MD_21029_M65051-97103",
+		"status": "for_sale",
+		"list_date": "2022-04-07T16:28:39Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-10T12:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-10T14:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "2197B9BE3676A59ED156E4746F3CB185"
+		},
+		"branding": [
+			{
+				"name": "Coldwell Banker Realty",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/98e00da0180a2d7819a7be076843eaedl-m2488352401s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/98e00da0180a2d7819a7be076843eaedl-m2912100303s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 965000,
+		"matterport": false,
+		"property_id": "6505197103",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1996,
+			"baths_3qtr": null,
+			"sold_date": "2000-11-20",
+			"sold_price": 479900,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 12716,
+			"sqft": 4596,
+			"baths": 4,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 3,
+			"beds": 5,
+			"type": "single_family"
+		},
+		"listing_id": "2941881665",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21029",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.929423,
+					"lat": 39.197394
+				},
+				"city": "Clarksville",
+				"state_code": "MD",
+				"line": "6620 Forest Shade Trl"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=6620%20Forest%20Shade%20Trl%2C%20Clarksville%2C%20MD%2021029&size=640x480&source=outdoor&signature=brZjqdl4h2wY7uFtYlGN5hjadC8=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941881665",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/042317f46f2f62ccab7cd6f76ee32d10l-m2912514480s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T12:15:32Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"den_or_office",
+			"dining_room",
+			"disability_features",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"hardwood_floors",
+			"view",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"community_swimming_pool",
+			"modern_kitchen",
+			"large_kitchen",
+			"fenced_yard",
+			"open_floor_plan",
+			"floor_plan",
+			"ensuite",
+			"views",
+			"shopping"
+		],
+		"permalink": "7505-Broadcloth-Way_Columbia_MD_21046_M56809-37615",
+		"status": "for_sale",
+		"list_date": "2022-04-07T16:16:05Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-09T13:00:00",
+				"methods": ["in_person"],
+				"description": "Please join us for an Open House!",
+				"end_date": "2022-04-09T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			},
+			{
+				"start_date": "2022-04-10T13:00:00",
+				"methods": ["in_person"],
+				"description": "Please join us for an Open House!",
+				"end_date": "2022-04-10T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "97C28A9712E2DD674BD6E1469A903C8E"
+		},
+		"branding": [
+			{
+				"name": "Northrop Realty, A Long & Foster Company",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/042317f46f2f62ccab7cd6f76ee32d10l-m2912514480s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/042317f46f2f62ccab7cd6f76ee32d10l-m1957875478s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 525000,
+		"matterport": false,
+		"property_id": "5680937615",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1985,
+			"baths_3qtr": null,
+			"sold_date": "2010-01-27",
+			"sold_price": 412000,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 8667,
+			"sqft": 2242,
+			"baths": 4,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 3,
+			"beds": 3,
+			"type": "single_family"
+		},
+		"listing_id": "2941881245",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21046",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.870696,
+					"lat": 39.164654
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "7505 Broadcloth Way"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=7505%20Broadcloth%20Way%2C%20Columbia%2C%20MD%2021046&size=640x480&source=outdoor&signature=Xk6FEVx2V-zhexxtTpZA6Th3-sM=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941881245",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/5e465c7f3c797211d3bf7bf40b6d656cl-m2410512115s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T11:56:15Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"corner_lot",
+			"den_or_office",
+			"dining_room",
+			"disability_features",
+			"dishwasher",
+			"forced_air",
+			"laundry_room",
+			"recreation_facilities",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"community_swimming_pool",
+			"gourmet_kitchen",
+			"fenced_yard",
+			"open_floor_plan",
+			"floor_plan",
+			"ensuite",
+			"medicalcare",
+			"shopping"
+		],
+		"permalink": "8957-Skyrock-Ct_Columbia_MD_21046_M57374-32784",
+		"status": "for_sale",
+		"list_date": "2022-04-07T16:00:46Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-08T17:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-08T19:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			},
+			{
+				"start_date": "2022-04-09T10:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-09T16:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			},
+			{
+				"start_date": "2022-04-10T11:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-10T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "5E3597C3C3FD1DE707CBBF87FF786C77"
+		},
+		"branding": [
+			{
+				"name": "Keller Williams Realty Centre",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/5e465c7f3c797211d3bf7bf40b6d656cl-m2410512115s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/5e465c7f3c797211d3bf7bf40b6d656cl-m4119845054s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 390000,
+		"matterport": false,
+		"property_id": "5737432784",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1983,
+			"baths_3qtr": null,
+			"sold_date": "2012-01-03",
+			"sold_price": 215000,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 1540,
+			"sqft": 2400,
+			"baths": 4,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 3,
+			"beds": 4,
+			"type": "townhomes"
+		},
+		"listing_id": "2941880179",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21046",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.85572,
+					"lat": 39.166501
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "8957 Skyrock Ct"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=8957%20Skyrock%20Ct%2C%20Columbia%2C%20MD%2021046&size=640x480&source=outdoor&signature=Xw-xuBm2lRjcr07XzlqAwq9fUHw=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941880179",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "539096066",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "510071682",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/0ff3e158e7e313522da0198eed1e32cbl-m1789043959s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T10:06:07Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"dining_room",
+			"disability_features",
+			"dishwasher",
+			"energy_efficient",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"hardwood_floors",
+			"recreation_facilities",
+			"view",
+			"washer_dryer",
+			"water_view",
+			"basement",
+			"two_or_more_stories",
+			"vaulted_ceiling",
+			"private_bathroom",
+			"floor_plan",
+			"views"
+		],
+		"permalink": "9257-Red-Cart-Ct_Columbia_MD_21045_M50079-51959",
+		"status": "for_sale",
+		"list_date": "2022-04-07T14:07:53Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-10T13:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-10T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "8055BA6413FCEC08AFF64385034A8373"
+		},
+		"branding": [
+			{
+				"name": "Northrop Realty, A Long & Foster Company",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/0ff3e158e7e313522da0198eed1e32cbl-m1789043959s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/0ff3e158e7e313522da0198eed1e32cbl-m1294974711s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 320000,
+		"matterport": false,
+		"property_id": "5007951959",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1973,
+			"baths_3qtr": null,
+			"sold_date": "2008-12-05",
+			"sold_price": 264330,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 2078,
+			"sqft": 1812,
+			"baths": 3,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 3,
+			"beds": 3,
+			"type": "townhomes"
+		},
+		"listing_id": "2941875109",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.829036,
+					"lat": 39.209481
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "9257 Red Cart Ct"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=9257%20Red%20Cart%20Ct%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=tCgVO0c-rqYWoEjRW9OguxXnpaY=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941875109",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/a99492a5811efb413c5707bf8d7c669dl-m201946666s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T17:51:36Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_clubhouse",
+			"community_outdoor_space",
+			"cul_de_sac",
+			"den_or_office",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"game_room",
+			"hardwood_floors",
+			"laundry_room",
+			"recreation_facilities",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"shopping"
+		],
+		"permalink": "6016-Snow-Crystal_Columbia_MD_21044_M59240-71996",
+		"status": "for_sale",
+		"list_date": "2022-04-07T04:17:39Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "67D3A15328C68AA94D8B68397ABEF189"
+		},
+		"branding": [
+			{
+				"name": "SAMSON PROPERTIES - Clarksville",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/a99492a5811efb413c5707bf8d7c669dl-m201946666s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/a99492a5811efb413c5707bf8d7c669dl-m3322545454s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 539000,
+		"matterport": false,
+		"property_id": "5924071996",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1978,
+			"baths_3qtr": null,
+			"sold_date": "2012-12-10",
+			"sold_price": 405000,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 14461,
+			"sqft": 2658,
+			"baths": 3,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 4,
+			"beds": 4,
+			"type": "single_family"
+		},
+		"listing_id": "2941867184",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.88391,
+					"lat": 39.208483
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "6016 Snow Crystal"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=6016%20Snow%20Crystal%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=lKlp8ukS80eR2-c2fJbjyCrKYYs=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941867184",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "2917967583",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				},
+				{
+					"listing_id": "556160766",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "503418462",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/f7b17d428f854af155cb771a39dcb117l-m403192479s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T09:59:14Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_clubhouse",
+			"community_outdoor_space",
+			"community_security_features",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"forced_air",
+			"game_room",
+			"hardwood_floors",
+			"recreation_facilities",
+			"basement",
+			"two_or_more_stories"
+		],
+		"permalink": "5435-Endicott-Ln_Columbia_MD_21044_M54811-66269",
+		"status": "for_sale",
+		"list_date": "2022-04-07T04:12:07Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-10T13:00:00",
+				"methods": ["in_person"],
+				"description": "Fantastic end-unit townhome in Columbia is beautifully updated and move-in ready! Kitchen features newer fresh white cabinets, granite counters & stainless appliances. Gorgeous Brazilian wood flooring in the living room, sliding door to deck. 3 genreous size bedrooms, finished basement with Rec Room, full bath and walk-out sliding door to backyard. This one won't last, hurry before this one is gone!",
+				"end_date": "2022-04-10T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "32D5015AAD8141137DDB6C42E8DE34F2"
+		},
+		"branding": [
+			{
+				"name": "Viviano Realty",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/f7b17d428f854af155cb771a39dcb117l-m403192479s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/f7b17d428f854af155cb771a39dcb117l-m3149357053s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 299900,
+		"matterport": false,
+		"property_id": "5481166269",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1969,
+			"baths_3qtr": null,
+			"sold_date": "2015-07-17",
+			"sold_price": 255000,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": null,
+			"sqft": 1404,
+			"baths": 3,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 3,
+			"beds": 3,
+			"type": "townhomes"
+		},
+		"listing_id": "2941866228",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.879422,
+					"lat": 39.225057
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "5435 Endicott Ln"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5435%20Endicott%20Ln%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=oWVqXAD-_a1481kuOC2G_O4CKFo=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941866228",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "641635902",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				},
+				{
+					"listing_id": "598457842",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "587907630",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/a66e83b6642e4679e2f1f5ca9b4ccd69l-m541610439s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T00:07:56Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"dining_room",
+			"family_room",
+			"fireplace",
+			"hardwood_floors",
+			"spa_or_hot_tub",
+			"view",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"updated_kitchen",
+			"master_bedroom",
+			"ensuite",
+			"park",
+			"trails",
+			"views",
+			"shopping"
+		],
+		"permalink": "7529-Red-Cravat-Ct_Columbia_MD_21046_M56795-58775",
+		"status": "for_sale",
+		"list_date": "2022-04-07T04:12:07Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-10T14:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-10T16:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "5FEA0ACA89871EDAE51D30260E9DD2FA"
+		},
+		"branding": [
+			{
+				"name": "Redfin Corp",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/a66e83b6642e4679e2f1f5ca9b4ccd69l-m541610439s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/a66e83b6642e4679e2f1f5ca9b4ccd69l-m78151366s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 570000,
+		"matterport": false,
+		"property_id": "5679558775",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1984,
+			"baths_3qtr": null,
+			"sold_date": "2005-02-25",
+			"sold_price": 355000,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 6287,
+			"sqft": 2772,
+			"baths": 4,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 3,
+			"beds": 4,
+			"type": "single_family"
+		},
+		"listing_id": "2941866352",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21046",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.869414,
+					"lat": 39.163829
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "7529 Red Cravat Ct"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=7529%20Red%20Cravat%20Ct%2C%20Columbia%2C%20MD%2021046&size=640x480&source=outdoor&signature=5og5RJcS-0QTaU40pNnmGiD58dM=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941866352",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/ef525d2e2d08b536b8d4d8e7e02adb91l-m1940901766s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T00:17:34Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"cul_de_sac",
+			"dining_room",
+			"dishwasher",
+			"energy_efficient",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"hardwood_floors",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"cathedral_ceiling",
+			"floor_plan",
+			"efficient"
+		],
+		"permalink": "6209-Twenty-Year-Chase_Columbia_MD_21045_M60176-72671",
+		"status": "for_sale",
+		"list_date": "2022-04-07T04:12:07Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-09T11:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-09T13:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "A66CBDBE2D992A259BB63482FE35E735"
+		},
+		"branding": [
+			{
+				"name": "Keller Williams Integrity",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/ef525d2e2d08b536b8d4d8e7e02adb91l-m1940901766s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/ef525d2e2d08b536b8d4d8e7e02adb91l-m3281185739s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 545000,
+		"matterport": false,
+		"property_id": "6017672671",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1996,
+			"baths_3qtr": null,
+			"sold_date": "2017-12-18",
+			"sold_price": 449000,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 5850,
+			"sqft": 2004,
+			"baths": 3,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 3,
+			"beds": 3,
+			"type": "single_family"
+		},
+		"listing_id": "2941866383",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.803079,
+					"lat": 39.19848
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "6209 Twenty Year Chase"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=6209%20Twenty%20Year%20Chase%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=v-Fw5TX5Q3tuXRR8HwvN8xH81Bs=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941866383",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "634647058",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/db85962d6b4c9310cfb28379ac0d7051l-m3522326636s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T00:08:44Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_clubhouse",
+			"den_or_office",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"game_room",
+			"hardwood_floors",
+			"recreation_facilities",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"updated_kitchen",
+			"modern_kitchen",
+			"kitchen_island",
+			"open_kitchen",
+			"vaulted_ceiling",
+			"big_lot",
+			"shopping"
+		],
+		"permalink": "6137-Gate-Sill_Columbia_MD_21045_M67352-39766",
+		"status": "for_sale",
+		"list_date": "2022-04-07T04:12:07Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "F81FCF04AB4C45A9BEB110D4CEF275CA"
+		},
+		"branding": [
+			{
+				"name": "COMPASS",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/db85962d6b4c9310cfb28379ac0d7051l-m3522326636s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/db85962d6b4c9310cfb28379ac0d7051l-m1010912056s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 469000,
+		"matterport": false,
+		"property_id": "6735239766",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1973,
+			"baths_3qtr": null,
+			"sold_date": "2019-03-25",
+			"sold_price": 385000,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": 10406,
+			"sqft": 1810,
+			"baths": 2,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 2,
+			"beds": 4,
+			"type": "single_family"
+		},
+		"listing_id": "2941866403",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.829916,
+					"lat": 39.202058
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "6137 Gate Sill"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=6137%20Gate%20Sill%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=JgnDhM80uRmX_r93FjYtnbGZRys=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941866403",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "649549946",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/c5f00199e5c6389faabe5080d5cc45c8l-m4083414746s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T00:10:52Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"dining_room",
+			"forced_air",
+			"basement",
+			"two_or_more_stories"
+		],
+		"permalink": "5764-Yellowrose-Ct_Columbia_MD_21045_M66629-43837",
+		"status": "for_sale",
+		"list_date": "2022-04-07T04:12:07Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "322F1BACB332B36D5765A61ACC2F0BCA"
+		},
+		"branding": [
+			{
+				"name": "Taylor Properties",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/c5f00199e5c6389faabe5080d5cc45c8l-m4083414746s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/c5f00199e5c6389faabe5080d5cc45c8l-m4024283944s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 309990,
+		"matterport": false,
+		"property_id": "6662943837",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1974,
+			"baths_3qtr": null,
+			"sold_date": "1998-05-05",
+			"sold_price": 118507,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 1481,
+			"sqft": 1360,
+			"baths": 3,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 2,
+			"beds": 3,
+			"type": "townhomes"
+		},
+		"listing_id": "2941866357",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.814813,
+					"lat": 39.21273
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "5764 Yellowrose Ct"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5764%20Yellowrose%20Ct%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=TZrhlL2GlLM80TGE3Y0YCUpIxvo=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941866357",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/1f58abb04a32b2f7c73ade38d2d70133l-m1920951212s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T19:40:39Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": "Samson Properties"
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_clubhouse",
+			"community_outdoor_space",
+			"cul_de_sac",
+			"den_or_office",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"game_room",
+			"hardwood_floors",
+			"laundry_room",
+			"recreation_facilities",
+			"view",
+			"washer_dryer",
+			"water_view",
+			"community_swimming_pool",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"updated_kitchen",
+			"gourmet_kitchen",
+			"private_backyard",
+			"high_ceiling",
+			"cathedral_ceiling",
+			"wooded_land",
+			"wine_cellar",
+			"ensuite",
+			"views"
+		],
+		"permalink": "7095-Garden-Walk_Columbia_MD_21044_M64588-38270",
+		"status": "for_sale",
+		"list_date": "2022-04-07T04:03:30Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-10T13:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-10T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "E8B8628939D0EEB1B639D840BD58BA95"
+		},
+		"branding": [
+			{
+				"name": "SAMSON PROPERTIES - Clarksville",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/1f58abb04a32b2f7c73ade38d2d70133l-m1920951212s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/1f58abb04a32b2f7c73ade38d2d70133l-m2458536081s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 995000,
+		"matterport": false,
+		"property_id": "6458838270",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1995,
+			"baths_3qtr": null,
+			"sold_date": "1994-12-30",
+			"sold_price": 423219,
+			"baths_full": 4,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 17917,
+			"sqft": 5135,
+			"baths": 5,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 3,
+			"beds": 6,
+			"type": "single_family"
+		},
+		"listing_id": "2941865771",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.916482,
+					"lat": 39.190887
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "7095 Garden Walk"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=7095%20Garden%20Walk%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=ugSmVco6jHkC58yei0uoh9PVsmc=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941865771",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/4c56ecfa4eac96a6b4e0009d021b87b1l-m1457274468s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-06T17:19:30Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"den_or_office",
+			"dining_room",
+			"fireplace",
+			"recreation_facilities",
+			"community_swimming_pool",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"cathedral_ceiling",
+			"shopping"
+		],
+		"permalink": "6318-Leafy-Screen_Columbia_MD_21045_M69807-85061",
+		"status": "for_sale",
+		"list_date": "2022-04-06T21:23:46Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-10T13:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-10T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "4448F867ACCC59844935D20B060CDC76"
+		},
+		"branding": [
+			{
+				"name": "Long & Foster Columbia",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/4c56ecfa4eac96a6b4e0009d021b87b1l-m1457274468s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/4c56ecfa4eac96a6b4e0009d021b87b1l-m632964825s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 469000,
+		"matterport": false,
+		"property_id": "6980785061",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1973,
+			"baths_3qtr": null,
+			"sold_date": null,
+			"sold_price": null,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 12238,
+			"sqft": 1872,
+			"baths": 3,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 3,
+			"beds": 5,
+			"type": "single_family"
+		},
+		"listing_id": "2941855328",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.850734,
+					"lat": 39.194342
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "6318 Leafy Screen"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=6318%20Leafy%20Screen%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=FZQfJgqOpdbF5tEtf_dYTt-Wlno=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941855328",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/0317c9575dd4cc13afe88e2037fc3437l-m817035012s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T14:19:17Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"carport",
+			"central_air",
+			"community_outdoor_space",
+			"dining_room",
+			"dishwasher",
+			"fireplace",
+			"forced_air",
+			"recreation_facilities",
+			"view",
+			"washer_dryer",
+			"community_swimming_pool",
+			"two_or_more_stories",
+			"master_bedroom",
+			"medicalcare",
+			"shopping"
+		],
+		"permalink": "11202-Avalanche-Way-Unit-B_Columbia_MD_21044_M91376-12004",
+		"status": "for_sale",
+		"list_date": "2022-04-06T20:19:15Z",
+		"open_houses": null,
+		"tax_record": null,
+		"branding": [
+			{
+				"name": "Certified Home Specialists Realty Inc.",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/0317c9575dd4cc13afe88e2037fc3437l-m817035012s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/0317c9575dd4cc13afe88e2037fc3437l-m1260655412s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 235000,
+		"matterport": false,
+		"property_id": "9137612004",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1976,
+			"baths_3qtr": null,
+			"sold_date": null,
+			"sold_price": null,
+			"baths_full": 1,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": null,
+			"sqft": 1064,
+			"baths": 2,
+			"sub_type": "condo",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 2,
+			"beds": 2,
+			"type": "condos"
+		},
+		"listing_id": "2941852563",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.887806,
+					"lat": 39.211656
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "11202 Avalanche Way Unit B"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=11202%20Avalanche%20Way%20Unit%20B%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=YlQ-3oEuJU1FFcJEar0wsH2cPA0=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941852563",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/8afd89c073118901eb7855a205bb829al-m1036836725s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-06T12:44:17Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": "Corner House Realty"
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"dining_room",
+			"dishwasher",
+			"forced_air",
+			"hardwood_floors",
+			"laundry_room",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"fenced_yard",
+			"master_bathroom",
+			"shopping"
+		],
+		"permalink": "9221-Mellenbrook-Rd_Columbia_MD_21045_M68618-32173",
+		"status": "for_sale",
+		"list_date": "2022-04-06T16:44:15Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-09T12:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-09T14:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			},
+			{
+				"start_date": "2022-04-10T13:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-10T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "74BFF4BA038F5B9F7426F5A2D8BBEC58"
+		},
+		"branding": [
+			{
+				"name": "Corner House Realty",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/8afd89c073118901eb7855a205bb829al-m1036836725s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/8afd89c073118901eb7855a205bb829al-m3610695986s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 575000,
+		"matterport": false,
+		"property_id": "6861832173",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1976,
+			"baths_3qtr": null,
+			"sold_date": "2014-12-09",
+			"sold_price": 390000,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 14098,
+			"sqft": 2350,
+			"baths": 4,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 3,
+			"beds": 6,
+			"type": "single_family"
+		},
+		"listing_id": "2941842724",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.832635,
+					"lat": 39.234022
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "9221 Mellenbrook Rd"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=9221%20Mellenbrook%20Rd%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=1nBm2vM2z3_hL_DWRaf1wW-nXJA=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941842724",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "590329354",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/9381a1ed7c8ae34313e3d0dfbab461dal-m3335174902s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-06T00:05:47Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"den_or_office",
+			"disability_features",
+			"dishwasher",
+			"fireplace",
+			"forced_air",
+			"hardwood_floors",
+			"recreation_facilities",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"granite_kitchen",
+			"park",
+			"shopping"
+		],
+		"permalink": "9506-Kilimanjaro-Rd_Columbia_MD_21045_M50484-60038",
+		"status": "for_sale",
+		"list_date": "2022-04-06T04:11:53Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "712DF890C815AAAC778CEFBE1C72C0EB"
+		},
+		"branding": [
+			{
+				"name": "Home Smart",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/9381a1ed7c8ae34313e3d0dfbab461dal-m3335174902s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/9381a1ed7c8ae34313e3d0dfbab461dal-m2887810033s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 399000,
+		"matterport": false,
+		"property_id": "5048460038",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1973,
+			"baths_3qtr": null,
+			"sold_date": "2019-10-23",
+			"sold_price": 284900,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 1307,
+			"sqft": 1806,
+			"baths": 4,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 3,
+			"beds": 4,
+			"type": "townhomes"
+		},
+		"listing_id": "2941829876",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.841695,
+					"lat": 39.207076
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "9506 Kilimanjaro Rd"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=9506%20Kilimanjaro%20Rd%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=qONBgI-GX1280Xqes6SWJiak59A=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941829876",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "2507946539",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				},
+				{
+					"listing_id": "2267178703",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "638624154",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "628950462",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "540947114",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/da331da97db5aa9a5d580805870454a6l-m829652616s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T15:18:00Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_clubhouse",
+			"community_outdoor_space",
+			"den_or_office",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"game_room",
+			"hardwood_floors",
+			"recreation_facilities",
+			"view",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"fenced_yard",
+			"floor_plan",
+			"ensuite",
+			"lake",
+			"shopping"
+		],
+		"permalink": "7238-Life-Quest-Ln_Columbia_MD_21045_M55422-71043",
+		"status": "for_sale",
+		"list_date": "2022-04-06T04:11:53Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-09T13:00:00",
+				"methods": ["in_person"],
+				"description": "Opportunity knocks! Gonna answer??? 4 level home awaits it's new owner. 4BR + Den + Family room + FP + balcony + deck! Perfectly located near shopping/dining/walking trails. Super easy access to I-95 and commuter routes. RUN!!!",
+				"end_date": "2022-04-09T15:00:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "516D04342B39F898843655A6E5253201"
+		},
+		"branding": [
+			{
+				"name": "Coldwell Banker Jay Lilly Real Estate",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/da331da97db5aa9a5d580805870454a6l-m829652616s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/da331da97db5aa9a5d580805870454a6l-m819382473s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 419900,
+		"matterport": true,
+		"property_id": "5542271043",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1984,
+			"baths_3qtr": null,
+			"sold_date": "2017-06-01",
+			"sold_price": 369600,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 3746,
+			"sqft": 1976,
+			"baths": 3,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 4,
+			"beds": 4,
+			"type": "single_family"
+		},
+		"listing_id": "2941829865",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.843946,
+					"lat": 39.179761
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "7238 Life Quest Ln"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=7238%20Life%20Quest%20Ln%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=tpR6iEAKkKl5x6VT0L8IqUVKZco=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941829865",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "642492378",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				},
+				{
+					"listing_id": "624662210",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "503530890",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/f0076fcedea83cebc3d3186276142230l-m2759800587s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-06T22:30:18Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"dining_room",
+			"disability_features",
+			"dishwasher",
+			"fireplace",
+			"forced_air",
+			"hardwood_floors",
+			"washer_dryer",
+			"single_story",
+			"shopping"
+		],
+		"permalink": "5960-Millrace-Ct-Unit-B301_Columbia_MD_21045_M59935-98872",
+		"status": "for_sale",
+		"list_date": "2022-04-04T23:23:11Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "30958DB831394AD24B41E75AC22AB4CF"
+		},
+		"branding": [
+			{
+				"name": "Exp Realty, LLC",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/f0076fcedea83cebc3d3186276142230l-m2759800587s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/f0076fcedea83cebc3d3186276142230l-m1717697920s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 300000,
+		"matterport": false,
+		"property_id": "5993598872",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "co_broke"],
+			"brand_name": "basic_opt_in"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1994,
+			"baths_3qtr": null,
+			"sold_date": "2017-09-25",
+			"sold_price": 235500,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": null,
+			"sqft": 1299,
+			"baths": 2,
+			"sub_type": "condo",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 1,
+			"beds": 3,
+			"type": "condos"
+		},
+		"listing_id": "2941780409",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.812241,
+					"lat": 39.201707
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "5960 Millrace Ct Unit B301"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5960%20Millrace%20Ct%20Unit%20B301%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=RufRz3xPtRQw1FQsxAA7j6ioU1c=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941780409",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "642569626",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				},
+				{
+					"listing_id": "630262378",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "627577994",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "641829538",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				},
+				{
+					"listing_id": "615545074",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "578645614",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/0d0b4cc32f4020746df208de0abef818l-m1886292197s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-05T10:18:02Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": "ANR Realty, LLC"
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"dishwasher",
+			"fireplace",
+			"hardwood_floors",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"modern_kitchen",
+			"large_kitchen",
+			"shopping"
+		],
+		"permalink": "9442-Granite-Hl_Columbia_MD_21046_M60787-28806",
+		"status": "for_sale",
+		"list_date": "2022-04-04T17:12:00Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "2252A484E0F657120A03BEA3B2C5D960"
+		},
+		"branding": [
+			{
+				"name": "ANR Realty, LLC",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/0d0b4cc32f4020746df208de0abef818l-m1886292197s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/0d0b4cc32f4020746df208de0abef818l-m327967815s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 269900,
+		"matterport": false,
+		"property_id": "6078728806",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1983,
+			"baths_3qtr": null,
+			"sold_date": "1996-02-28",
+			"sold_price": 106600,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": 1655,
+			"sqft": 1400,
+			"baths": 2,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 3,
+			"beds": 2,
+			"type": "townhomes"
+		},
+		"listing_id": "2941767697",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21046",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.831911,
+					"lat": 39.163483
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "9442 Granite Hill Rd"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=9442%20Granite%20Hill%20Rd%2C%20Columbia%2C%20MD%2021046&size=640x480&source=outdoor&signature=5I8RIKQS5XmJ1Boc5GO0UfknPUY=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941767697",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "642426842",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "618013534",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "555437018",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/2d63ff3a6725f37d1735838cb3daf389l-m1566622177s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-03T14:16:27Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": "Cummings & Co. Realtors"
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_golf",
+			"community_outdoor_space",
+			"dining_room",
+			"dishwasher",
+			"fireplace",
+			"forced_air",
+			"golf_course_lot_or_frontage",
+			"recreation_facilities",
+			"washer_dryer",
+			"single_story",
+			"garage_1_or_more",
+			"modern_kitchen",
+			"large_kitchen",
+			"open_floor_plan",
+			"floor_plan",
+			"golf_course",
+			"shopping"
+		],
+		"permalink": "5835-Wyndham-Cir-201_Columbia_MD_21044_M65218-54979",
+		"status": "for_sale",
+		"list_date": "2022-04-03T18:14:48Z",
+		"open_houses": [
+			{
+				"start_date": "2022-04-09T12:00:00",
+				"methods": ["in_person"],
+				"description": null,
+				"end_date": "2022-04-09T14:30:00",
+				"dst": true,
+				"time_zone": "EST"
+			}
+		],
+		"tax_record": {
+			"public_record_id": "0BB43E36A775A15F4D9C643827075B3C"
+		},
+		"branding": [
+			{
+				"name": "Cummings & Co.",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/2d63ff3a6725f37d1735838cb3daf389l-m1566622177s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/2d63ff3a6725f37d1735838cb3daf389l-m1127433861s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 275000,
+		"matterport": false,
+		"property_id": "6521854979",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1994,
+			"baths_3qtr": null,
+			"sold_date": "2013-10-10",
+			"sold_price": 235000,
+			"baths_full": 1,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": null,
+			"sqft": 1066,
+			"baths": 1,
+			"sub_type": "condo",
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 1,
+			"beds": 2,
+			"type": "condos"
+		},
+		"listing_id": "2941751870",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.869322,
+					"lat": 39.2119
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "5835 Wyndham Cir Unit 201"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5835%20Wyndham%20Cir%20Unit%20201%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=XVtGIuUgIZSTCRryMMxfXxfq92g=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941751870",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "2941418515",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "2940567088",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "573874750",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "519129050",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/4bc51def4da5452baa80337f4fe8bc57l-m2872986461s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-03T19:16:55Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"den_or_office",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"hardwood_floors",
+			"laundry_room",
+			"spa_or_hot_tub",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"new_roof"
+		],
+		"permalink": "8414-Freedom-Ct_Columbia_MD_21045_M65525-27998",
+		"status": "for_sale",
+		"list_date": "2022-04-02T17:22:50Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "AAC88527CBD29F6AEDDA7A8E4E457A84"
+		},
+		"branding": [
+			{
+				"name": "Execuhome Realty",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/4bc51def4da5452baa80337f4fe8bc57l-m2872986461s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/4bc51def4da5452baa80337f4fe8bc57l-m3607453611s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 639999,
+		"matterport": false,
+		"property_id": "6552527998",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1989,
+			"baths_3qtr": null,
+			"sold_date": "1999-09-09",
+			"sold_price": 245000,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 12109,
+			"sqft": 3176,
+			"baths": 4,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 3,
+			"beds": 4,
+			"type": "single_family"
+		},
+		"listing_id": "2941738305",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.802397,
+					"lat": 39.188435
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "8414 Freedom Ct"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=8414%20Freedom%20Ct%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=-0-R2BTxXvMZd2lzLVgjd3yfNAM=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941738305",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/90c21e0d3698eaa18084e5118666f7e0l-m307770021s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-04T13:01:52Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"cul_de_sac",
+			"den_or_office",
+			"dining_room",
+			"disability_features",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"hardwood_floors",
+			"spa_or_hot_tub",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"master_bedroom",
+			"shopping"
+		],
+		"permalink": "6113-Every-Sail-Path_Clarksville_MD_21029_M65642-63622",
+		"status": "for_sale",
+		"list_date": "2022-04-02T04:18:15Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "65397C546FF556572593FFC90F8CB9F1"
+		},
+		"branding": [
+			{
+				"name": "Libra Realty Llc",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/90c21e0d3698eaa18084e5118666f7e0l-m307770021s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/90c21e0d3698eaa18084e5118666f7e0l-m2898776683s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 1240000,
+		"matterport": false,
+		"property_id": "6564263622",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1999,
+			"baths_3qtr": null,
+			"sold_date": "2015-05-07",
+			"sold_price": 932500,
+			"baths_full": 5,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 15283,
+			"sqft": 6332,
+			"baths": 6,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 3,
+			"beds": 4,
+			"type": "single_family"
+		},
+		"listing_id": "2941730267",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21029",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.928869,
+					"lat": 39.204357
+				},
+				"city": "Clarksville",
+				"state_code": "MD",
+				"line": "6113 Every Sail Path"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=6113%20Every%20Sail%20Path%2C%20Clarksville%2C%20MD%2021029&size=640x480&source=outdoor&signature=r6Tk5DK-hEJFd8ZN0BXtmu8r2os=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941730267",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "2931885257",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "598920890",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/2f57a389c4113d1c995495e7962795a0l-m2123016442s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T14:22:17Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_clubhouse",
+			"community_outdoor_space",
+			"den_or_office",
+			"dining_room",
+			"disability_features",
+			"family_room",
+			"fireplace",
+			"game_room",
+			"hardwood_floors",
+			"laundry_room",
+			"recreation_facilities",
+			"senior_community",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"gourmet_kitchen",
+			"clubhouse",
+			"park",
+			"golf_course",
+			"shopping"
+		],
+		"permalink": "10803-Dundee-Dr-N61_Columbia_MD_21044_M67567-21821",
+		"status": "for_sale",
+		"list_date": "2022-04-02T04:12:39Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "AFB717226E5EC5CA70DA885490785397"
+		},
+		"branding": [
+			{
+				"name": "RE/MAX 100",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/2f57a389c4113d1c995495e7962795a0l-m2123016442s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/2f57a389c4113d1c995495e7962795a0l-m156260868s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 699900,
+		"matterport": false,
+		"property_id": "6756721821",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 2007,
+			"baths_3qtr": null,
+			"sold_date": "2012-12-03",
+			"sold_price": 489000,
+			"baths_full": 4,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": null,
+			"sqft": 4840,
+			"baths": 5,
+			"sub_type": "condo",
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 3,
+			"beds": 4,
+			"type": "condos"
+		},
+		"listing_id": "2941730028",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.885722,
+					"lat": 39.198719
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "10803 Dundee Dr"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=10803%20Dundee%20Dr%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=TuIE8_VO_uiHRvEfGqxqkCwFI98=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941730028",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/3f24f53d2bcf603a8729a71796a91bb0l-m4027654423s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-04T19:40:18Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"carport",
+			"central_air",
+			"community_outdoor_space",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"washer_dryer",
+			"two_or_more_stories",
+			"vaulted_ceiling",
+			"park",
+			"trails",
+			"shopping"
+		],
+		"permalink": "11223-Snowflake-Ct-Unit-A_Columbia_MD_21044_M90681-89070",
+		"status": "for_sale",
+		"list_date": "2022-04-02T04:12:39Z",
+		"open_houses": null,
+		"tax_record": null,
+		"branding": [
+			{
+				"name": "Re/Max Realty Plus",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/3f24f53d2bcf603a8729a71796a91bb0l-m4027654423s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/3f24f53d2bcf603a8729a71796a91bb0l-m3946051147s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 289000,
+		"matterport": false,
+		"property_id": "9068189070",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": true
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": [
+			{
+				"type": null,
+				"href": "https://pictureperfectllctours.com/11223-Snowflake-Ct/idx"
+			}
+		],
+		"description": {
+			"year_built": 1976,
+			"baths_3qtr": null,
+			"sold_date": null,
+			"sold_price": null,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": null,
+			"sqft": 1274,
+			"baths": 2,
+			"sub_type": "condo",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 2,
+			"beds": 3,
+			"type": "condos"
+		},
+		"listing_id": "2941730018",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.887806,
+					"lat": 39.211656
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "11223 Snowflake Ct Unit A"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=11223%20Snowflake%20Ct%20Unit%20A%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=C6vICUb7RyAolRQ_ehhZSNXY_fo=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941730018",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/cb003be76597ebba53ec5b158098d1f2l-m1572700359s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-02T21:49:16Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_golf",
+			"community_outdoor_space",
+			"golf_course_lot_or_frontage",
+			"hardwood_floors",
+			"recreation_facilities",
+			"spa_or_hot_tub",
+			"view",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"high_ceiling",
+			"vaulted_ceiling",
+			"golf_course",
+			"trails"
+		],
+		"permalink": "5520-April-Journey-10_Columbia_MD_21044_M63691-76413",
+		"status": "for_sale",
+		"list_date": "2022-04-01T22:15:37Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "C670C83159417A37B3216F5F3B4252BF"
+		},
+		"branding": [
+			{
+				"name": "Redfin Corp",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/cb003be76597ebba53ec5b158098d1f2l-m1572700359s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/cb003be76597ebba53ec5b158098d1f2l-m1536078989s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 409000,
+		"matterport": false,
+		"property_id": "6369176413",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1991,
+			"baths_3qtr": null,
+			"sold_date": "2013-12-26",
+			"sold_price": 342000,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": null,
+			"sqft": 2336,
+			"baths": 3,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 3,
+			"beds": 3,
+			"type": "townhomes"
+		},
+		"listing_id": "2941719975",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.848873,
+					"lat": 39.232312
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "5520 April Journey Unit 10"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5520%20April%20Journey%20Unit%2010%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=rwafQG3NiGES9HlEf-UwCbOJXO8=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941719975",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "2912610758",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "646520106",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "578240958",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/0c8102237fef8720a0446557d602795al-m112995809s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-04T09:17:52Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"dining_room",
+			"dishwasher",
+			"energy_efficient",
+			"family_room",
+			"forced_air",
+			"hardwood_floors",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"updated_kitchen",
+			"modern_kitchen",
+			"large_kitchen",
+			"big_lot",
+			"ensuite"
+		],
+		"permalink": "5420-Watercress-Pl_Columbia_MD_21045_M51498-60668",
+		"status": "for_sale",
+		"list_date": "2022-04-01T17:15:44Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "DBB307E46311950FC3DCCF6759F982A0"
+		},
+		"branding": [
+			{
+				"name": "Berkshire Hathaway HomeServices PenFed Realty",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/0c8102237fef8720a0446557d602795al-m112995809s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/0c8102237fef8720a0446557d602795al-m3475197204s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 585000,
+		"matterport": false,
+		"property_id": "5149860668",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1976,
+			"baths_3qtr": null,
+			"sold_date": null,
+			"sold_price": null,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 8097,
+			"sqft": 1768,
+			"baths": 3,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 2,
+			"beds": 4,
+			"type": "single_family"
+		},
+		"listing_id": "2941700231",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.815758,
+					"lat": 39.221995
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "5420 Watercress Pl"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5420%20Watercress%20Pl%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=0Q7PWU0TDPiNgmEBsUL7IxTN5wY=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941700231",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/c6488786bc09ca90921707fbbe1b8e59l-m3726182369s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-03T21:00:22Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": "Keller Williams Integrity"
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_clubhouse",
+			"community_outdoor_space",
+			"community_security_features",
+			"energy_efficient",
+			"fireplace",
+			"laundry_room",
+			"recreation_facilities",
+			"basement",
+			"two_or_more_stories",
+			"updated_kitchen",
+			"rental_property",
+			"ensuite",
+			"medicalcare",
+			"shopping"
+		],
+		"permalink": "10706-Bridlerein-Ter_Columbia_MD_21044_M59695-73712",
+		"status": "for_sale",
+		"list_date": "2022-04-01T04:30:47Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "FA277B4D8557641E7086FF5EDCE29986"
+		},
+		"branding": [
+			{
+				"name": "Keller Williams Integrity",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/c6488786bc09ca90921707fbbe1b8e59l-m3726182369s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/c6488786bc09ca90921707fbbe1b8e59l-m2091759656s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 419000,
+		"matterport": false,
+		"property_id": "5969573712",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": true
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1981,
+			"baths_3qtr": null,
+			"sold_date": "2019-06-11",
+			"sold_price": 275000,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 1307,
+			"sqft": 1907,
+			"baths": 3,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 3,
+			"beds": 4,
+			"type": "townhomes"
+		},
+		"listing_id": "2941681182",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.882865,
+					"lat": 39.210535
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "10706 Bridlerein Ter"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=10706%20Bridlerein%20Ter%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=6c-CgXEh0UzScJEKLfizhYCTYBM=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941681182",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "648464326",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/96749b40af21dd2e917586b8ca7cc5e2l-m1438856140s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-04T21:31:00Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"dishwasher",
+			"fireplace",
+			"hardwood_floors",
+			"recreation_facilities",
+			"view",
+			"washer_dryer",
+			"community_swimming_pool",
+			"single_story",
+			"trails"
+		],
+		"permalink": "7533-Weather-Worn-Way-Unit-C_Columbia_MD_21046_M57678-41793",
+		"status": "for_sale",
+		"list_date": "2022-04-01T04:30:47Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "E950B9FEF2BB2E12CE6A8988C7FE8D44"
+		},
+		"branding": [
+			{
+				"name": "Keller Williams Integrity",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/96749b40af21dd2e917586b8ca7cc5e2l-m1438856140s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/96749b40af21dd2e917586b8ca7cc5e2l-m3953138875s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 185000,
+		"matterport": false,
+		"property_id": "5767841793",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": true
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1984,
+			"baths_3qtr": null,
+			"sold_date": "2007-06-29",
+			"sold_price": 205000,
+			"baths_full": 1,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": null,
+			"sqft": 936,
+			"baths": 1,
+			"sub_type": "condo",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 1,
+			"beds": 1,
+			"type": "condos"
+		},
+		"listing_id": "2941681482",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21046",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.867162,
+					"lat": 39.165653
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "7533 Weather Worn Way Unit C"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=7533%20Weather%20Worn%20Way%20Unit%20C%2C%20Columbia%2C%20MD%2021046&size=640x480&source=outdoor&signature=by9uQ-Z1OP7n3PKYxCWw_0s7BtI=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941681482",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/a2532fda0b997dd2b9cb33a213656765l-m304618760s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-05T13:12:31Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"den_or_office",
+			"dining_room",
+			"disability_features",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"hardwood_floors",
+			"lake_view",
+			"view",
+			"water_view",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"waterfront",
+			"granite_kitchen",
+			"gourmet_kitchen",
+			"open_floor_plan",
+			"floor_plan",
+			"pond",
+			"playground",
+			"trails",
+			"views",
+			"hoa"
+		],
+		"permalink": "6353-Summercrest-Dr_Columbia_MD_21045_M59903-71257",
+		"status": "for_sale",
+		"list_date": "2022-04-01T04:24:19Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "6C8E2E8FA44B1CE03FC30E0A8221D783"
+		},
+		"branding": [
+			{
+				"name": "Long & Foster Columbia",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/a2532fda0b997dd2b9cb33a213656765l-m304618760s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/a2532fda0b997dd2b9cb33a213656765l-m4226503034s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 575000,
+		"matterport": false,
+		"property_id": "5990371257",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": true
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": [
+			{
+				"type": null,
+				"href": "https://virtualtours.katseyevirtualtours.com/s/idx/111651"
+			}
+		],
+		"description": {
+			"year_built": 1982,
+			"baths_3qtr": null,
+			"sold_date": "2008-11-13",
+			"sold_price": 490000,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 2,
+			"lot_sqft": 6795,
+			"sqft": 2927,
+			"baths": 4,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 3,
+			"beds": 4,
+			"type": "single_family"
+		},
+		"listing_id": "2941680462",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.830028,
+					"lat": 39.198505
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "6353 Summercrest Dr"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=6353%20Summercrest%20Dr%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=bxddZU6qgbqwpjGNIkujCkjP7cg=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941680462",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/889510844576cf34bf17b548d5f8f8edl-m1817801046s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T20:17:40Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"washer_dryer",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"gourmet_kitchen",
+			"open_floor_plan",
+			"floor_plan",
+			"rental_property",
+			"park",
+			"shopping"
+		],
+		"permalink": "7205-Mainstream-Way_Columbia_MD_21044_M98883-03997",
+		"status": "for_sale",
+		"list_date": "2022-04-01T04:24:19Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "EB43B26CD54A971CEC1DE7343B03E457"
+		},
+		"branding": [
+			{
+				"name": "Keller Williams Flagship Of Maryland",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/889510844576cf34bf17b548d5f8f8edl-m1817801046s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/889510844576cf34bf17b548d5f8f8edl-m2848920174s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 750000,
+		"matterport": false,
+		"property_id": "9888303997",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": true,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 2021,
+			"baths_3qtr": null,
+			"sold_date": "2021-04-01",
+			"sold_price": 652264,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 2,
+			"lot_sqft": 2081,
+			"sqft": 2446,
+			"baths": 4,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 3,
+			"beds": 3,
+			"type": "townhomes"
+		},
+		"listing_id": "2941680808",
+		"price_reduced_amount": 19990,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.90595173,
+					"lat": 39.19164937
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "7205 Mainstream Way"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=7205%20Mainstream%20Way%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=giMuHL_j1bbvOqjCv5MiBrsIQrU=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941680808",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/fedf61476b4299c489fd25c9aba41125l-b32629389s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-04T22:10:39Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"central_heat",
+			"community_clubhouse",
+			"community_outdoor_space",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"game_room",
+			"recreation_facilities",
+			"view",
+			"washer_dryer",
+			"community_swimming_pool",
+			"basement",
+			"two_or_more_stories",
+			"fenced_yard"
+		],
+		"permalink": "7228-Talisman-Ln_Columbia_MD_21045_M68836-70015",
+		"status": "for_sale",
+		"list_date": "2022-03-31T23:03:12Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "583BD2666C39B2B3D5FD61689D0E714C"
+		},
+		"branding": [
+			{
+				"name": "EXIT RESULTS REALTY",
+				"photo": "https://ap.rdcpix.com/a4bbb4f1472b265d065df57f9b43768do-b1637540070s.jpg",
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/fedf61476b4299c489fd25c9aba41125l-b32629389s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/fedf61476b4299c489fd25c9aba41125l-b12620557s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 375000,
+		"matterport": false,
+		"property_id": "6883670015",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": [
+				"core.agent",
+				"core.broker",
+				"listing_owner_brand.broker",
+				"co_broke"
+			],
+			"brand_name": "advantage_brand"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1975,
+			"baths_3qtr": null,
+			"sold_date": "2003-02-10",
+			"sold_price": 148500,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 1437,
+			"sqft": 2072,
+			"baths": 4,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 3,
+			"beds": 4,
+			"type": "townhomes"
+		},
+		"listing_id": "2941667468",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.840279,
+					"lat": 39.191937
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "7228 Talisman Ln"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=7228%20Talisman%20Ln%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=6pKrAl6d51XJZiOwkxxOCfv3JnU=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941667468",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/e534f90babffc5403a85c81383ee4c78l-m2072429182s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-04T21:10:51Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"den_or_office",
+			"dining_room",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"game_room",
+			"hardwood_floors",
+			"recreation_facilities",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"open_floor_plan",
+			"floor_plan"
+		],
+		"permalink": "5361-Woodnote-Ln_Columbia_MD_21044_M53248-38789",
+		"status": "for_sale",
+		"list_date": "2022-03-31T22:52:02Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "C28A581267926B212714A7466B037847"
+		},
+		"branding": [
+			{
+				"name": "Corner House Realty",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/e534f90babffc5403a85c81383ee4c78l-m2072429182s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/e534f90babffc5403a85c81383ee4c78l-m2075645393s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 730000,
+		"matterport": false,
+		"property_id": "5324838789",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1996,
+			"baths_3qtr": null,
+			"sold_date": "2018-12-18",
+			"sold_price": 585000,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": 10831,
+			"sqft": 3985,
+			"baths": 3,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 3,
+			"beds": 5,
+			"type": "single_family"
+		},
+		"listing_id": "2941667157",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.896615,
+					"lat": 39.219522
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "5361 Woodnote Ln"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5361%20Woodnote%20Ln%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=9kj4dp6Ax7Telh3jdxAly2GLUNA=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941667157",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "647447030",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/e8fed8e625d4d568ddf6cede15627510l-m215238701s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-04T19:37:25Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"community_tennis_court",
+			"cul_de_sac",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"recreation_facilities",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"community_swimming_pool",
+			"big_yard",
+			"tennis_court",
+			"park",
+			"playground",
+			"tennis",
+			"baseball",
+			"shopping"
+		],
+		"permalink": "6389-Weatherwise-Way_Columbia_MD_21045_M69040-54485",
+		"status": "for_sale",
+		"list_date": "2022-03-31T22:23:06Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "62BD6DBD6DC320D616FF4D627065CBEA"
+		},
+		"branding": [
+			{
+				"name": "Keller Williams Integrity",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/e8fed8e625d4d568ddf6cede15627510l-m215238701s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/e8fed8e625d4d568ddf6cede15627510l-m4091728619s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 399900,
+		"matterport": false,
+		"property_id": "6904054485",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": true
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1977,
+			"baths_3qtr": null,
+			"sold_date": "1994-09-06",
+			"sold_price": 146000,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": 9060,
+			"sqft": 1680,
+			"baths": 2,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 2,
+			"beds": 3,
+			"type": "single_family"
+		},
+		"listing_id": "2941666428",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.835933,
+					"lat": 39.198068
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "6389 Weatherwise Way"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=6389%20Weatherwise%20Way%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=EmDEatYFV3DJv29geqM9djItAiw=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941666428",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/a64a58b7eaeee29f31f589d37639207fl-m2083800706s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-07T09:24:54Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": "RE/MAX Professionals"
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"den_or_office",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"updated_kitchen",
+			"library",
+			"new_roof"
+		],
+		"permalink": "5487-Wooded-Way_Columbia_MD_21044_M53454-46855",
+		"status": "for_sale",
+		"list_date": "2022-03-31T20:23:37Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "235FD6F47E9BB122642DCA4686C77D65"
+		},
+		"branding": [
+			{
+				"name": "Re/Max Professionals",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/a64a58b7eaeee29f31f589d37639207fl-m2083800706s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/a64a58b7eaeee29f31f589d37639207fl-m887280497s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 779900,
+		"matterport": false,
+		"property_id": "5345446855",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": null,
+			"is_foreclosure": null,
+			"is_new_listing": true,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1996,
+			"baths_3qtr": null,
+			"sold_date": "1996-10-09",
+			"sold_price": 352174,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": 13426,
+			"sqft": 3713,
+			"baths": 3,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 3,
+			"beds": 4,
+			"type": "single_family"
+		},
+		"listing_id": "2941660931",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.900603,
+					"lat": 39.217561
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "5487 Wooded Way"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=5487%20Wooded%20Way%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=ta74h4fK-S-fpeEG8_QypjP6h4g=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941660931",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "2438420268",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/7ed1de311e1f5e99a9d048186439b391l-m2973963513s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-04T15:13:52Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_clubhouse",
+			"community_outdoor_space",
+			"cul_de_sac",
+			"dining_room",
+			"energy_efficient",
+			"hardwood_floors",
+			"recreation_facilities",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"updated_kitchen",
+			"vaulted_ceiling",
+			"cathedral_ceiling"
+		],
+		"permalink": "6387-Shadowshape-Pl_Columbia_MD_21045_M68568-75802",
+		"status": "for_sale",
+		"list_date": "2022-03-31T19:28:54Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "97C79F8FCE45E8C8633CEECC6E8D6D6F"
+		},
+		"branding": [
+			{
+				"name": "Keller Williams Lucido Agency",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/7ed1de311e1f5e99a9d048186439b391l-m2973963513s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/7ed1de311e1f5e99a9d048186439b391l-m308564048s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 400000,
+		"matterport": true,
+		"property_id": "6856875802",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "co_broke"],
+			"brand_name": "basic_opt_in"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1974,
+			"baths_3qtr": null,
+			"sold_date": "2000-09-12",
+			"sold_price": 175000,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 6600,
+			"sqft": 1844,
+			"baths": 3,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 1,
+			"stories": 2,
+			"beds": 4,
+			"type": "single_family"
+		},
+		"listing_id": "2941658022",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.845727,
+					"lat": 39.196052
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "6387 Shadowshape Pl"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=6387%20Shadowshape%20Pl%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=0URrOQUjsrXfa6EbCD8mBlyzJHM=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941658022",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/625781716f1ca3053f32af411accd7b7l-m3833438020s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-04T14:00:56Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": "Keller Williams Realty Partners"
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"cul_de_sac",
+			"den_or_office",
+			"dining_room",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"hardwood_floors",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"updated_kitchen",
+			"open_floor_plan",
+			"floor_plan",
+			"park",
+			"shopping"
+		],
+		"permalink": "6347-Early-Red-Ct_Columbia_MD_21045_M63110-81958",
+		"status": "for_sale",
+		"list_date": "2022-03-31T18:23:33Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "75A00CB221E8334D9A83CC7BFCCF9141"
+		},
+		"branding": [
+			{
+				"name": "Keller Williams Realty Partners",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/625781716f1ca3053f32af411accd7b7l-m3833438020s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/625781716f1ca3053f32af411accd7b7l-m1200524380s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 399900,
+		"matterport": false,
+		"property_id": "6311081958",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["co_broke"],
+			"brand_name": "basic_opt_in"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1986,
+			"baths_3qtr": null,
+			"sold_date": "2001-06-22",
+			"sold_price": 149900,
+			"baths_full": 2,
+			"name": null,
+			"baths_half": 2,
+			"lot_sqft": 2221,
+			"sqft": 1828,
+			"baths": 4,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 3,
+			"beds": 3,
+			"type": "townhomes"
+		},
+		"listing_id": "2941654702",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21045",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.833753,
+					"lat": 39.197686
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "6347 Early Red Ct"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=6347%20Early%20Red%20Ct%2C%20Columbia%2C%20MD%2021045&size=640x480&source=outdoor&signature=57n7Lk0OFHgf5Qwa-7Dansc1ck8=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941654702",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "639347326",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "643089554",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "623214798",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "605452642",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "582829418",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "532869814",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/c3fcde8585517e4ea7ce62f1ea2cee0el-m3798107670s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-04T21:35:30Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"cul_de_sac",
+			"dining_room",
+			"disability_features",
+			"dishwasher",
+			"family_room",
+			"fireplace",
+			"forced_air",
+			"hardwood_floors",
+			"laundry_room",
+			"view",
+			"washer_dryer",
+			"water_view",
+			"basement",
+			"two_or_more_stories",
+			"garage_1_or_more",
+			"garage_2_or_more",
+			"granite_kitchen",
+			"fenced_yard",
+			"high_ceiling",
+			"vaulted_ceiling",
+			"open_floor_plan",
+			"floor_plan",
+			"ensuite",
+			"views"
+		],
+		"permalink": "11093-Swansfield-Rd_Columbia_MD_21044_M55646-41980",
+		"status": "for_sale",
+		"list_date": "2022-03-31T17:03:49Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "0707E361DC25F427A3FB7214E4C2997C"
+		},
+		"branding": [
+			{
+				"name": "Long & Foster South Carroll",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/c3fcde8585517e4ea7ce62f1ea2cee0el-m3798107670s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/c3fcde8585517e4ea7ce62f1ea2cee0el-m2186935715s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 600000,
+		"matterport": true,
+		"property_id": "5564641980",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1970,
+			"baths_3qtr": null,
+			"sold_date": "2021-04-23",
+			"sold_price": 570000,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": null,
+			"lot_sqft": 13419,
+			"sqft": 1975,
+			"baths": 3,
+			"sub_type": null,
+			"baths_1qtr": null,
+			"garage": 2,
+			"stories": 2,
+			"beds": 5,
+			"type": "single_family"
+		},
+		"listing_id": "2936161466",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21044",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.895171,
+					"lat": 39.217569
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "11093 Swansfield Rd"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=11093%20Swansfield%20Rd%2C%20Columbia%2C%20MD%2021044&size=640x480&source=outdoor&signature=mWBH74o6jo2wm63CnYPPLLyWG9s=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2936161466",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "2926579051",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				},
+				{
+					"listing_id": "2672072992",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				},
+				{
+					"listing_id": "648231274",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				},
+				{
+					"listing_id": "641603146",
+					"listing_key": null,
+					"status": "sold",
+					"primary": null
+				},
+				{
+					"listing_id": "601646974",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	},
+	{
+		"primary_photo": {
+			"href": "https://ap.rdcpix.com/60509b86e4b94adaa002093c32bd4064l-m4268427241s-w1024_h768.jpg"
+		},
+		"last_update_date": "2022-04-05T13:37:05Z",
+		"source": {
+			"agents": [
+				{
+					"office_name": null
+				}
+			],
+			"id": "PHPA",
+			"plan_id": null,
+			"spec_id": null,
+			"type": "mls"
+		},
+		"tags": [
+			"central_air",
+			"community_outdoor_space",
+			"dining_room",
+			"dishwasher",
+			"energy_efficient",
+			"family_room",
+			"fireplace",
+			"hardwood_floors",
+			"laundry_room",
+			"washer_dryer",
+			"basement",
+			"two_or_more_stories",
+			"updated_kitchen",
+			"fenced_yard",
+			"ensuite",
+			"shopping"
+		],
+		"permalink": "8928-Skyrock-Ct_Columbia_MD_21046_M57344-14242",
+		"status": "for_sale",
+		"list_date": "2022-03-31T16:31:14Z",
+		"open_houses": null,
+		"tax_record": {
+			"public_record_id": "6BD925F02D51DE9B50D10A69E10BA6DA"
+		},
+		"branding": [
+			{
+				"name": "Redfin Corp",
+				"photo": null,
+				"type": "Office"
+			}
+		],
+		"photos": [
+			{
+				"href": "https://ap.rdcpix.com/60509b86e4b94adaa002093c32bd4064l-m4268427241s-w1024_h768.jpg"
+			},
+			{
+				"href": "https://ap.rdcpix.com/60509b86e4b94adaa002093c32bd4064l-m1614751935s-w1024_h768.jpg"
+			}
+		],
+		"coming_soon_date": null,
+		"list_price": 375000,
+		"matterport": false,
+		"property_id": "5734414242",
+		"flags": {
+			"is_new_construction": null,
+			"is_subdivision": null,
+			"is_plan": null,
+			"is_price_reduced": null,
+			"is_pending": true,
+			"is_foreclosure": null,
+			"is_new_listing": false,
+			"is_coming_soon": null,
+			"is_contingent": null
+		},
+		"lead_attributes": {
+			"show_contact_an_agent": true,
+			"opcity_lead_attributes": {
+				"flip_the_market_enabled": false,
+				"cashback_enabled": false
+			},
+			"lead_type": "co_broke"
+		},
+		"community": null,
+		"products": {
+			"products": ["core.agent", "core.broker", "co_broke"],
+			"brand_name": "essentials"
+		},
+		"virtual_tours": null,
+		"description": {
+			"year_built": 1983,
+			"baths_3qtr": null,
+			"sold_date": "2014-08-12",
+			"sold_price": 295000,
+			"baths_full": 3,
+			"name": null,
+			"baths_half": 1,
+			"lot_sqft": 1440,
+			"sqft": 2200,
+			"baths": 4,
+			"sub_type": "townhouse",
+			"baths_1qtr": null,
+			"garage": null,
+			"stories": 3,
+			"beds": 4,
+			"type": "townhomes"
+		},
+		"listing_id": "2941648309",
+		"price_reduced_amount": null,
+		"location": {
+			"address": {
+				"postal_code": "21046",
+				"state": "Maryland",
+				"coordinate": {
+					"lon": -76.854884,
+					"lat": 39.166237
+				},
+				"city": "Columbia",
+				"state_code": "MD",
+				"line": "8928 Skyrock Ct"
+			},
+			"street_view_url": "https://maps.googleapis.com/maps/api/streetview?channel=rdc-streetview&client=gme-movesalesinc&location=8928%20Skyrock%20Ct%2C%20Columbia%2C%20MD%2021046&size=640x480&source=outdoor&signature=TM-qM2a2tcwWfYYtZYT4jMfAtos=",
+			"county": {
+				"fips_code": "24027",
+				"name": "Howard"
+			}
+		},
+		"other_listings": {
+			"rdc": [
+				{
+					"listing_id": "2941648309",
+					"listing_key": null,
+					"status": "for_sale",
+					"primary": true
+				},
+				{
+					"listing_id": "589724262",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				},
+				{
+					"listing_id": "583417358",
+					"listing_key": null,
+					"status": "off_market",
+					"primary": null
+				}
+			]
+		}
+	}
+]

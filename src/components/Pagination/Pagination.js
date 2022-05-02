@@ -1,4 +1,5 @@
 import ReactPaginate from 'react-paginate';
+import './Pagination.style.css';
 
 function Pagination({page, setPage, listings, listingsPerPage}) {
 	const totalPages = Math.ceil(listings.length / listingsPerPage);

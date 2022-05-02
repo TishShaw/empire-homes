@@ -1,119 +1,70 @@
 import {
-	USER_LOGIN_SUCCESSFUL,
+	USER_SIGNUP_REQUEST,
 	USER_SIGNUP_SUCCESSFUL,
+	USER_LOGIN_REQUEST,
+	USER_LOGIN_SUCCESSFUL,
 	USER_LOGIN_FAILED,
 	USER_SIGNUP_FAILED,
 	SIGNOUT,
-	GOOGLE_AUTH_FAIL,
-	GOOGLE_AUTH_SUCCESS,
-
 } from '../constants/constants';
-
+import {
+	signInWithEmailAndPassword,
+	createUserWithEmailAndPassword,
+} from 'firebase/auth';
+import { auth } from '../../Firebase';
 import axios from 'axios';
 axios.defaults.withCredentials = true;
 
-export const login = (email, password) => async (dispatch) => {
-	const config = {
-		headers: {
-			'Content-Type': 'application/json',
-			'Access-Control-Allow-Origin': '*',
-		},
-	};
-
-	const body = JSON.stringify({ email, password });
-
+export const loginUser = (email, password) => async (dispatch) => {
 	try {
-		const {data} = await axios.post(
-			'http://localhost:8000/accounts/token/login',
-			body,
-			config
-		);
+		dispatch({ type: USER_LOGIN_REQUEST });
+
+		const data = await signInWithEmailAndPassword(auth, email, password);
+		console.log(data);
 
 		dispatch({
 			type: USER_LOGIN_SUCCESSFUL,
-			payload: data,
+			payload: data
 		});
-	
-		localStorage.setItem('userData', JSON.stringify(data));
 
-		
+		localStorage.setItem(
+			'userData',
+			JSON.stringify(data.user.auth.currentUser)
+		);
 	} catch (error) {
 		dispatch({
 			type: USER_LOGIN_FAILED,
+			payload:
+				error.response && error.response.data.detail
+					? error.response.data.detail
+					: error.message,
 		});
 
-	
+		console.log(error);
 	}
 };
 
-
-// export const googleAuthenticate = (state, code) => async (dispatch) => {
-// 	if (state && code && !localStorage.getItem('access')) {
-// 		const config = {
-// 			headers: {
-// 				'Content-Type': 'application/x-www-form-urlencoded',
-// 			},
-// 		};
-// 		const details = {
-// 			state: state,
-// 			code: code,
-// 		};
-// 		const formBody = Object.keys(details)
-// 			.map(
-// 				(key) =>
-// 					encodeURIComponent(key) + '=' + encodeURIComponent(details[key])
-// 			)
-// 			.join('&');
-// 		try {
-// 			const res = await axios.post(
-// 				`http://localhost:8000/accounts/auth/google/${formBody}`,
-// 				config
-// 			);
-// 			console.log(res.data);
-// 			dispatch({
-// 				type: GOOGLE_AUTH_SUCCESS,
-// 				payload: res.data,
-// 			});
-// 		} catch (err) {
-// 			dispatch({
-// 				type: GOOGLE_AUTH_FAIL,
-// 			});
-// 			console.log(err);
-// 		}
-// 	}
-// };
-
-export const signup =({ name, email, password, password2 }) => async (dispatch) => {
-	
-		const config = {
-			headers: {
-				'Content-Type': 'application/json',
-			},
-		};
-
-		const body = JSON.stringify({ name, email, password, password2 });
-
-		
-
+export const registerUser = ({ email, password }) => async (dispatch) => {
 		try {
-			const response = await axios.post('http://localhost:8000/users/',
-				body,
-				config
-			);
+			const data = await createUserWithEmailAndPassword(auth, email, password);
+			const user = {
+				token: data.user.uid,
+				user: data.user,
+			};
+			console.log(user);
+
+			localStorage.setItem('userData', JSON.stringify(user));
 
 			dispatch({
 				type: USER_SIGNUP_SUCCESSFUL,
-				payload: response.data,
+				payload: data.user,
 			});
-			console.log(response.data)
-
-			dispatch(login(email, password));
+			console.log(data.data);
 		} catch (error) {
 			dispatch({
 				type: USER_SIGNUP_FAILED,
 			});
 		}
-	
 	};
 
 export const logout = () => (dispatch) => {

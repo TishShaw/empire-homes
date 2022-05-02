@@ -3,8 +3,8 @@ import { PropTypes } from 'prop-types';
 import axios from 'axios';
 import './FeedForm.styles.css';
 
-function FeedForm({ setListing, listing }) {
-	console.log(listing)
+function FeedForm({ listing }) {
+	// console.log(listing)
 	const [formData, setFormData] = useState({
 		sale_type: "For Sale",
 		price: 'Any',
@@ -47,7 +47,7 @@ function FeedForm({ setListing, listing }) {
 			})
 			.then((res) => {
 				setLoading(false);
-				setListing(res.data);
+				// setListing(res.data);
 				window.scrollTo(0, 0);
 			})
 			.catch((err) => {

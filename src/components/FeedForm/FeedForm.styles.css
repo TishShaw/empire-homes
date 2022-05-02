@@ -1,11 +1,16 @@
 .feedForm {
     display: flex;
     justify-content: space-between;
-    background-color: yellow;
     padding: 30px;
     width: 100vw;
     left: 0;
+    overflow-x: scroll;
+   background-color: #e5e5f7;
+	
+
 }
+    
+    
 
 .listingForm__section {
     display: flex;
@@ -16,7 +21,7 @@
     height: 40px;
     width: 80px;
     border-radius: 5px;
-    background-color: aliceblue;
+    background-color: yellow;
 }
 
 .listingForm__label {

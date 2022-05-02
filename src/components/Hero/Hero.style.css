@@ -12,14 +12,18 @@
 	top: 0;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 	overflow: hidden;
 	position: relative;
 }
 
 .hero-wrapper-header {
-	margin-top: 250px;
+	margin-top: 200px;
+	margin-left: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .hero-slide {
@@ -37,7 +41,6 @@
 	align-items: center;
 	justify-content: center;
 	transition: all 0.3s ease-in-out;
-	/* position: relative; */
 	width: 100%;
 	-webkit-transition: opacity 1s ease-in-out;
 	-moz-transition: opacity 1s ease-in-out;
@@ -68,7 +71,7 @@
 
 .slide-title {
 	font-family: georgia-bold;
-	font-size: clamp(0.5rem, 8vw, 5rem);
+	font-size: clamp(3rem, 5vw, 6rem);
 	font-weight: 400;
 	text-transform: uppercase;
 	text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
@@ -89,24 +92,10 @@
 	-moz-transition: opacity 1s ease-in-out;
 	-o-transition: opacity 1s ease-in-out;
 	transition: opacity 1s ease-in-out;
+	
 }
 
-.arrow {
-	width: 50px;
-	height: 50px;
-	color: #fff;
-	background-color: #000d1a;
-	border-radius: 50pc;
-	cursor: pointer;
-	padding: 10px;
-	transition: 0.3s;
-	user-select: none;
-}
 
-.arrow:hover {
-	background: #cd853f;
-	transform: scale(1.05);
-}
 
 .slider-buttons {
 	position: absolute;
@@ -135,24 +124,44 @@
 	flex-direction: row;
 	align-items: center;
 	background-color: #fff;
-	width: 700px;
+	width: 900px;
+	border-radius: 5px;
 	left: 0;
-	z-index: 10;
 	margin-top: 90px;
+	font-size: 26px;
+	-webkit-box-shadow: 1px 1px 24px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 1px 1px 24px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: 1px 1px 24px -1px rgba(0, 0, 0, 0.75);
 }
 
 .hero-input {
-	width: 750px;
+	width: 950px;
 	height: 70px;
-	padding: 20px;
+	padding: 10px;
 	border: none;
+	font-size: 22px;
+	border-radius: 5px;
 }
 
 .hero-inputBtn {
 	padding: 10px;
 	background-color: transparent;
 	border: 1.5px solid gray;
+	color: rgb(97, 94, 94);
 	margin-right: 20px;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-inputBtn:hover {
+	padding: 10px;
+	background-color: gray;
+	color: #fff;
+	border: 1.5px solid gray;
+	margin-right: 20px;
+	font-size: 16px;
 }
 
 .input-filterBtn {
@@ -178,9 +187,18 @@
 	display: none;
 }
 
+@media only screen and (max-width: 850px) {
+	.slide-title {
+		font-size: 50px;
+	}
+
+
+
+}
+
 @media only screen and (max-width: 700px) {
 	.hero-form {
-		width: 400px;
+		width: 500px;
 		height: 48px;
 		margin: auto;
 		margin-top: 40px;
@@ -216,7 +234,6 @@
 		position: relative;
 		top: 0;
 		left: 0;
-		/* overflow: hidden; */
 	}
 
 	.hero-wrapper {
@@ -247,16 +264,23 @@
 		height: 30px;
 		width: 20px;
 	}
+
+	.hero-image {
+		width: 100vw;
+		height: 60vh;
+	}
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 600px) {
 	.hero-form {
 		margin-top: 55px;
 		width: 340px;
+		font-size: 16px;
 	}
 
 	.hero-input {
 		width: 250px;
+		font-size: 17px;
 	}
 
 	.hero-searchIcon {

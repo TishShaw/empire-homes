@@ -1,6 +1,8 @@
 import {
+    USER_SIGNUP_REQUEST,
     USER_SIGNUP_SUCCESSFUL,
     USER_SIGNUP_FAILED,
+    USER_LOGIN_REQUEST,
     USER_LOGIN_FAILED,
     USER_LOGIN_SUCCESSFUL,
 
@@ -25,38 +27,44 @@ const initialState = {
 // };
 
 export const authReducer = (state = {}, action) => {
-    switch(action.type) {
-        case USER_LOGIN_SUCCESSFUL:
-            return {
-                ...state,
-                isAuthenticated: true,
-                loading: false,
-                token: action.payload.access,
-                userData: action.payload
-            }
+    switch (action.type) {
+			case USER_SIGNUP_REQUEST:
+            case USER_LOGIN_REQUEST:
+				return {
+					...state,
+					loading: true,
+				};
 
-        case USER_SIGNUP_SUCCESSFUL:
-            return {
-                ...state,
-                isAuthenticated: false,
-                loading: true,
-                userData: action.payload
-            }
+			case USER_LOGIN_SUCCESSFUL:
+				return {
+					...state,
+					isAuthenticated: true,
+					loading: false,
+					token: action.payload.token,
+					userData: action.payload,
+				};
 
-        case USER_LOGIN_FAILED:
-        case USER_SIGNUP_FAILED:
-        case SIGNOUT:
-           
-            return {
-                ...state,
-                token: null,
-                isAuthenticated: false,
-                loading: false
-            }
+			case USER_SIGNUP_SUCCESSFUL:
+				return {
+					...state,
+					isAuthenticated: false,
+					loading: true,
+					userData: action.payload,
+				};
 
-        default:
-            return state;
-    }
+			case USER_LOGIN_FAILED:
+			case USER_SIGNUP_FAILED:
+			case SIGNOUT:
+				return {
+					...state,
+					token: null,
+					isAuthenticated: false,
+					loading: false,
+				};
+
+			default:
+				return state;
+		}
 }
 
 export const googleAuthReducer = (state = initialState, action) => {
